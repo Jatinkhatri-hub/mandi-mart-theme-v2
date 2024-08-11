@@ -7,6 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (!entry.isIntersecting) return;
 
-    en
+    entry.target.classList.remove
   }
 });
