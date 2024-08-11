@@ -196,12 +196,24 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "feature_product_collection_AEgrFi": {
+      "type": "feature-product-collection",
+      "settings": {
+        "heading": "Heading",
+        "section_color_scheme": "",
+        "collection": "meraki-blu-usp-grade-methylene-blue-150mg",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_product_6xwfpF",
     "featured_collection_Q9wrHp",
-    "featured_collection_v2_67jxEm"
+    "featured_collection_v2_67jxEm",
+    "feature_product_collection_AEgrFi"
   ]
 }
