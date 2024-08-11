@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (!entry.isIntersecting) return;
 
-    entry.target.classList.remove
+    entry.target.classList.remove('section-hidden');
+    observer.
   }
 });
