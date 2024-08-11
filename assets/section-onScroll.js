@@ -12,8 +12,10 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   const sectionObserver = new IntersectionObserver
-  (
-    
+  (revealSection, {
+    root
+  }
+
   )
 
 });
