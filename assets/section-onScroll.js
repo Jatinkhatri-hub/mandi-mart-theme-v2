@@ -18,7 +18,8 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   allSections.forEach(function (section) {
-    section
+    sectionObserver.observe(section);
+    section.classList.add('section-hidden')
   });
 
 });
