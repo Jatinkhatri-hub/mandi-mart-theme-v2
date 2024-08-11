@@ -9,10 +9,12 @@ document.addEventListener('DOMContentLoaded', () => {
     entry.target.classList.remove('section-hidden');
     observer.unobserve(entry.target);
 
-    // Reveal all cards within the revealed section
+    // Reveal all cards within the revealed section with a staggered delay
     const cardsInSection = entry.target.querySelectorAll('.custom-card');
-    cardsInSection.forEach(card => {
-      card.classList.remove('card-hidden');
+    cardsInSection.forEach((card, index) => {
+      setTimeout(() => {
+        card.classList.remove('card-hidden');
+      }, index * 150); // 150ms delay between each card
     });
   };
 
@@ -26,7 +28,6 @@ document.addEventListener('DOMContentLoaded', () => {
     section.classList.add('section-hidden');
   });
 
-  // No need for a separate cardObserver since cards will be revealed with their section
   const allCards = document.querySelectorAll('.custom-card');
   allCards.forEach(function (card) {
     card.classList.add('card-hidden');
