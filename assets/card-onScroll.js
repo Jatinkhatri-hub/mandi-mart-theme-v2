@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const [entry] = entries;
     console.log(entry);
 
-    if (!entry.isIntersecting) return;
+    // if (!entry.isIntersecting) return;
 
     entry.target.classList.remove('card-hidden');
     observer.unobserve(entry.target);
