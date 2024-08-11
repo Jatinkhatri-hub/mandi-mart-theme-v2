@@ -58,10 +58,37 @@
             "card_background": "#3AAFA9",
             "collection": ""
           }
+        },
+        "collection_card_FbAVpL": {
+          "type": "collection_card",
+          "settings": {
+            "collection_img": "shopify:\/\/shop_images\/Group_1000007089.png",
+            "card_background": "#3AAFA9",
+            "collection": "clearance"
+          }
+        },
+        "collection_card_gyaUL9": {
+          "type": "collection_card",
+          "settings": {
+            "collection_img": "shopify:\/\/shop_images\/Ellipse_219.png",
+            "card_background": "#3AAFA9",
+            "collection": ""
+          }
+        },
+        "collection_card_JXRmbT": {
+          "type": "collection_card",
+          "settings": {
+            "collection_img": "shopify:\/\/shop_images\/Group_1000007091_1.png",
+            "card_background": "#3AAFA9",
+            "collection": "shop-all"
+          }
         }
       },
       "block_order": [
-        "collection_card_Xzbj3k"
+        "collection_card_Xzbj3k",
+        "collection_card_FbAVpL",
+        "collection_card_gyaUL9",
+        "collection_card_JXRmbT"
       ],
       "settings": {
         "heading": "Heading",
