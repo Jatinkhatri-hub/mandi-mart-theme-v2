@@ -3676,6 +3676,9 @@ details-disclosure > details {
   }
 }
 
+.custom-section {
+  transition: ;
+}
 
 .section-hidden {
   opacity: 0;
