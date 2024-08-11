@@ -16,7 +16,7 @@
   <div class="page-width color-{{ section.settings.color_scheme }}">
     <div class="feature-collection__wrapper">
       <div class="feature-collection__header-wrapper">
-        <h1>{{ section.settings.Heading }}</h1>
+        <h1>{{ section.settings.heading }}</h1>
       </div>
       {% for block in section.blocks.collection_card %}
         <div class="feature-collection__card-wrapper">
@@ -38,7 +38,7 @@
     "settings": [
       {
         "type": "inline_richtext",
-        "id": "Heading",
+        "id": "heading",
         "label": "Heading",
         "default": "Heading"
       },
