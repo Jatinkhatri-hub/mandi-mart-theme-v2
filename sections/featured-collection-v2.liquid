@@ -20,7 +20,7 @@
       <div class="feature-collection__header-wrapper">
         <h1>{{ section.settings.heading }}</h1>
       </div>
-      {% for block in section.blocks.collection_card %}
+      {% for block in section.blocks %}
         <div class="feature-collection__card-wrapper">
           <div class="feature-collection__img-wrapper" style="background: {{ block.settings.card_background }};">
             <img src="{{ block.settings.collection_img |  img_url: 'medium' }}" class="feature-collection__img">
