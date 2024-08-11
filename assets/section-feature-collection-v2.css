@@ -19,7 +19,7 @@
   align-items: center;
   gap: 1.8rem;
   text-decoration: none;
-  
+
 }
 
 
@@ -41,6 +41,7 @@
 .feature-collection__title {
   font-size: 20px;
   text-align: center;
+  text-decoration: none;
 }
 
 
