@@ -3677,7 +3677,7 @@ details-disclosure > details {
 }
 
 .custom-section {
-  transition: ;
+  transition: transform 1s, ;
 }
 
 .section-hidden {
