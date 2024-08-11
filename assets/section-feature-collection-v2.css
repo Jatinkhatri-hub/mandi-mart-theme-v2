@@ -19,5 +19,7 @@
 
 .feature-collection__img-wrapper {
   display: flex;
-  
+  justify-content: center;
+  align-items: center;
+  width: ;
 }
