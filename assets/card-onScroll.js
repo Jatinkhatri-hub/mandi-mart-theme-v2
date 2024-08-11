@@ -12,13 +12,13 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   const cardObserver = new IntersectionObserver
-  (revealSection, {
+  (revealCard, {
     root: null,
     threshold: 0.5,
   });
 
   allCards.forEach(function (section) {
-    sectionObserver.observe(section);
+    cardObserver.observe(section);
     section.classList.add('card-hidden');
   });
 
