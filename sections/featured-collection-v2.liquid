@@ -18,8 +18,9 @@
       {% for block in section.blocks.collection_card %}
         <div class="feature-collection__card-wrapper">
           <div class="feature-collection__img-wrapper">
-            <img src="{{ block.settings.collection_img |  img_url: 'medium' }}" class="">
+            <img src="{{ block.settings.collection_img |  img_url: 'medium' }}" class="feature-collection__img">
           </div>
+          
 
         </div>
       {% endfor %}
