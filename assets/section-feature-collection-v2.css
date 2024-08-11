@@ -1,6 +1,6 @@
 .feature-collection__wrapper {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
