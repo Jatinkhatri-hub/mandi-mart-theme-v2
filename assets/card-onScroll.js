@@ -17,9 +17,9 @@ document.addEventListener('DOMContentLoaded', () => {
     threshold: 0.5,
   });
 
-  allCards.forEach(function (section) {
-    cardObserver.observe(section);
-    section.classList.add('card-hidden');
+  allCards.forEach(function (card) {
+    cardObserver.observe(card);
+    card.classList.add('card-hidden');
   });
 
 });
