@@ -1,1 +1,4 @@
-.feature
+.feature-collection__wrapper {
+  display: flex;
+  
+}
