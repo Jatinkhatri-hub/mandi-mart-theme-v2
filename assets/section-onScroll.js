@@ -14,9 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const sectionObserver = new IntersectionObserver
   (revealSection, {
     root: null,
-    t
-  }
-
-  )
+    threshold: 0.15,
+  });
 
 });
