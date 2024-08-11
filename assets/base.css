@@ -3676,7 +3676,7 @@ details-disclosure > details {
   }
 }
 
-.custom-section {
+/* .custom-section {
   transition: transform 1s, opacity 1s;
 }
 
@@ -3692,4 +3692,26 @@ details-disclosure > details {
 .card-hidden {
   opacity: 0;
   transform: translateY(5rem);
+} */
+
+.custom-section {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  transform: translateY(0);
+}
+
+.section-hidden {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.custom-card {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  transform: translateY(0);
+}
+
+.card-hidden {
+  opacity: 0;
+  transform: translateY(20px);
 }
