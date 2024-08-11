@@ -25,4 +25,7 @@
   height: 160px;
 }
 
-.fea
+.feature-collection__img {
+  width: 160px;
+  height: 1;
+}
