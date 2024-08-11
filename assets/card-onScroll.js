@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const allSections = document.querySelectorAll('.custom-card');
+  const allCards = document.querySelectorAll('.custom-card');
 
-  const revealSection = function (entries, observer) {
+  const revealCard = function (entries, observer) {
     const [entry] = entries;
     console.log(entry);
 
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const sectionObserver = new IntersectionObserver
   (revealSection, {
     root: null,
-    threshold: 0.,
+    threshold: 0.5,
   });
 
   allSections.forEach(function (section) {
