@@ -1,7 +1,8 @@
 {{ 'section-feature-collection-v2.css' |  asset_url |  stylesheet_tag }}
 
 <script src="{{ 'section-onScroll.js' | asset_url }}" defer></script>
-<script src="{{ 'card-onScroll.js' | asset_url }}" defer></script>
+{% comment %} 
+<script src="{{ 'card-onScroll.js' | asset_url }}" defer></script> {% endcomment %}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
