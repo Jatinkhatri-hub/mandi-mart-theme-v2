@@ -1,1 +1,3 @@
-document.querySelector
+document.addEventListener('DOMContentLoaded', () => {
+
+});
