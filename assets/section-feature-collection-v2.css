@@ -53,6 +53,8 @@
     height: 275px;
   }
 
-  .fe
+  .feature-collection__title {
+    font-size: 37px;
+  }
 }
 
