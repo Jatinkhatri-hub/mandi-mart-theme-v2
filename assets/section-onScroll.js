@@ -17,4 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
     threshold: 0.15,
   });
 
+  allSections.forEach()
+
 });
