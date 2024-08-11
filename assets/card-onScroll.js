@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const allSections = document.querySelectorAll('.custom-section');
+  const allSections = document.querySelectorAll('.custom-card');
 
   const revealSection = function (entries, observer) {
     const [entry] = entries;
@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (!entry.isIntersecting) return;
 
-    entry.target.classList.remove('section-hidden');
+    entry.target.classList.remove('card-hidden');
     observer.unobserve(entry.target);
   };
 
