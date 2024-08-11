@@ -9,5 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     entry.target.classList.remove('section-hidden');
     observer.unobserve(entry.target);
-  }
+  };
+
+  const
+
 });
