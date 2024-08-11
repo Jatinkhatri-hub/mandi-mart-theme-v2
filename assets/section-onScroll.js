@@ -8,6 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!entry.isIntersecting) return;
 
     entry.target.classList.remove('section-hidden');
-    observer.
+    observer.unobserve(entry.target);
   }
 });
