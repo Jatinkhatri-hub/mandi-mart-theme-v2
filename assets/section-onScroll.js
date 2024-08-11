@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   const allSections = document.querySelectorAll('.custom-section');
 
-  const reveal
+  const revealSection = function (entries, observer) {
+    
+  }
 });
