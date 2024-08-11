@@ -5,6 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const [entry] = entries;
     console.log(entry);
 
-    if (!entry.isIntersecting) re
+    if (!entry.isIntersecting) return;
+
+    en
   }
 });
