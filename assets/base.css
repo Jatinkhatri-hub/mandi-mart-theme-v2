@@ -3678,5 +3678,6 @@ details-disclosure > details {
 
 
 .section-hidden {
-  o
+  opacity: 0;
+  transform: ;
 }
