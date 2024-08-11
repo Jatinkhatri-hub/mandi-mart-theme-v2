@@ -27,5 +27,7 @@
 
 .feature-collection__img {
   width: 160px;
-  height: 1;
+  height: 160px;
+  object-fit: contain;
+  
 }
