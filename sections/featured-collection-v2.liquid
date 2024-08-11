@@ -1,4 +1,3 @@
-
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -16,26 +15,24 @@
 <div class="section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
   <div class="page-width color-{{ section.settings.color_scheme }}">
     <div class="feature-collection__wrapper">
-      <div>
-        
-      </div>
+      <div></div>
 
     </div>
   </div>
 </div>
 
 
-{%  schema  %} 
-{
-  "name": "Feature Collection",
-  "settings": [
-    {
-      "type": "inline_richtext",
-      "id": "Heading",
-      "label": "Heading",
-      "default": "Heading"
-    },
-    {
+{% schema %}
+  {
+    "name": "Feature Collection",
+    "settings": [
+      {
+        "type": "inline_richtext",
+        "id": "Heading",
+        "label": "Heading",
+        "default": "Heading"
+      },
+      {
         "type": "color_scheme",
         "id": "section_color_scheme",
         "label": "t:sections.all.colors.label",
@@ -66,7 +63,7 @@
         "label": "t:sections.all.padding.padding_bottom",
         "default": 36
       }
-  ]
-}
+    ]
+  }
 
 {% endschema %}
