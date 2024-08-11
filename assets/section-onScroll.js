@@ -11,6 +11,9 @@ document.addEventListener('DOMContentLoaded', () => {
     observer.unobserve(entry.target);
   };
 
-  const
+  const sectionObserver = new IntersectionObserver
+  (
+    
+  )
 
 });
