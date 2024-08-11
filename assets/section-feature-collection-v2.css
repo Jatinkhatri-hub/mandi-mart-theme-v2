@@ -48,6 +48,9 @@
     height: 275px;
   }
 
-  .fe
+  .feature-collection__img {
+    width: 275px;
+    height: 275px;
+  }
 }
 
