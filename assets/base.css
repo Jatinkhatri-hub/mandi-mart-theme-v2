@@ -3679,5 +3679,5 @@ details-disclosure > details {
 
 .section-hidden {
   opacity: 0;
-  transform: ;
+  transform: translateY(10rem);
 }
