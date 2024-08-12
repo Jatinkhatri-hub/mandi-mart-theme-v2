@@ -72,7 +72,11 @@
   border: 4px solid rgb(var(--color-secondary-button-text));
 }
 
-.
+.outline-btn:hover {
+  background: none;
+  color: rgb(var(--color-secondary-button-text));
+  border: 4px solid rgb(var(--color-secondary-button-text));
+}
 
 @media screen and (min-width: 789px) {
   .iwt__wrapper {
