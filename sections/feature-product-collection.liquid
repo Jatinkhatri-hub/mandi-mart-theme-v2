@@ -95,14 +95,14 @@
         el: swiperPaginationClass,
         clickable: true,
       },
-      breakpoints: {
-        786: {
-          slidesPerView: 1,
-          spaceBetween: 10,
-        }
+      on: {
+      init: function () {
+        adjustSlides();
       },
-      observer: true, 
-      observeParents: true,
+        resize: function () {
+          adjustSlides();
+       }
+      }
     });
 
     swiper.init();
@@ -110,7 +110,7 @@
   } else {
     console.error('Swiper initialization elements not found for section:', id);
   }
-});
+  });
 </script>
 
 
