@@ -33,7 +33,7 @@
 }
 
 .footer__payment-img {
-  width: 25px;
-  height: 350px;
+  width: 350px;
+  height: 25px;
   object-fit: contain;
 }
