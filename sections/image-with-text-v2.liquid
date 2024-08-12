@@ -26,7 +26,7 @@
             {% when 'paragraph' %}
               {{ block.settings.paragraph }}
             {% when 'button'%}
-              <button class="iwt__"></button>
+              <button class="iwt__button">{{ block.settings.button_label }}</button>
           {% endcase %}
         {% endfor %}
       </div>
