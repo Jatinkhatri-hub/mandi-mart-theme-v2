@@ -10,7 +10,11 @@
   width: 175px;
   height: 375px;
   border: .75px solid #D3E0DF;
-}prod
+}
+
+.product-card__wrapper:hover {
+  background: ;
+}
 
 
 
