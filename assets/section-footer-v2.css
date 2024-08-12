@@ -35,5 +35,5 @@
 .footer__payment-img {
   width: 25px;
   height: 350px;
-  
+  object-fit: contain;
 }
