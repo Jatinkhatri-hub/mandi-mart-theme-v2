@@ -19,4 +19,6 @@
   flex-direction: column;
 }
 
-.description-desc
+.description-desktop {
+  display: none;
+}
