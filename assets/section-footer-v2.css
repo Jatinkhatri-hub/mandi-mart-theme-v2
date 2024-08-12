@@ -127,6 +127,11 @@
     height: 28px;
   }
 
+  .footer__payment-img {
+    width: 380px;
+    height: ;
+  }
+
   .footer__copyright-mobile {
     display: none;
   }
