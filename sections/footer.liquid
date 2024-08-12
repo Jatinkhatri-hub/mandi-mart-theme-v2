@@ -64,7 +64,7 @@
         {% when 'disclaimer' %}
           <div class="footer__disclaimer-wrapper">
             <h1 class="footer__disclaimer-title"></h1>
-            <p></p>
+            {{ block.settings.d }}
           </div>
       {% endcase %}
     {% endfor %}
