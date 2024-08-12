@@ -122,6 +122,8 @@
   .product-card__rating {
     flex-direction: row-reverse;
     justify-content: space-between;
+    width: 100%;
+    padding: 0 20px;
   }
 
   .product-card__title {
