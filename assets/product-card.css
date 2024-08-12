@@ -124,7 +124,8 @@
   }
 
   .product-card__info-footer {
-    
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
 
