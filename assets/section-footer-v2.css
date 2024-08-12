@@ -113,6 +113,10 @@
     justify-content: space-evenly;
   }
 
+  .description-desktop {
+    display: block;
+  }
+
   .footer__copyright-mobile {
     display: none;
   }
