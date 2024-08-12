@@ -28,8 +28,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 25px;
-  height: 350px;
+  width: 350px;
+  height: 25px;
 }
 
 .footer__payment-img {
