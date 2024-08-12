@@ -75,7 +75,7 @@
 .outline-btn:hover {
   background: rgb(var(--color-secondary-button-text));;
   color: none;
-  border: 4px solid rgb(var(--color-secondary-button-text));
+  border: 4px solid none;
 }
 
 @media screen and (min-width: 789px) {
