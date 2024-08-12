@@ -113,7 +113,10 @@
     object-fit: contain;
   }
 
-  .prodcut
+  .product-card__rating {
+    flex-direction: row;
+    spa
+  }
 }
 
 
