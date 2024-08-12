@@ -18,7 +18,8 @@
           "type": "brand_information",
           "settings": {
             "show_social": true,
-            "copyright_text_block": ""
+            "copyright_text_block": "",
+            "payment_img": "shopify:\/\/shop_images\/Group_110.png"
           }
         }
       },
