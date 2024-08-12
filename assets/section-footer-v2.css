@@ -12,7 +12,7 @@
   flex-direction:  column;
 }
 
-.footer-brand__info {
+.footer__brand-info {
   display: flex;
   justify-content: center;
   align-items: center;
