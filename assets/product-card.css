@@ -114,8 +114,9 @@
   }
 
   .product-card__rating {
-    flex-direction: row;
-    spa
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  
   }
 }
 
