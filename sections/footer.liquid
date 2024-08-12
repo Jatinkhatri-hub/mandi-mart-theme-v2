@@ -28,7 +28,7 @@
             {%- endif -%}
             {% if block.settings.payment_img %} 
               <div class="footer__payment-wrapper">
-                <img src="{{ block.settings.payment_img }}">
+                <img src="{{ block.settings.payment_img |  img_url: 'medium' }}"  class="footer">
               </div>
             {% endif %}
             {%- if settings.brand_headline != blank -%}
