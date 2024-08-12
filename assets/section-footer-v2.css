@@ -50,4 +50,7 @@
   font-size: 24px;
 }
 
-.footer__menu
+.footer__menu-child_item-wrapper {
+  display: flex;
+  justify-content: center
+}
