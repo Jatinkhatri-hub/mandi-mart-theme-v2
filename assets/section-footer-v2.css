@@ -92,6 +92,8 @@
 }
 
 
+.footer
+
 .footer__disclaimer-wrapper p {
   font-size: 16px;
   font-family: 'Poppins';
@@ -99,10 +101,7 @@
   text-align: center;
 }
 
-.footer__copyright-mobile p{
-  font-size: 16px;
-  text-align: center;
-}
+
 
 
 @media screen and (min-width: 789px) {  
