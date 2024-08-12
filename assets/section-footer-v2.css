@@ -143,7 +143,10 @@
     margin-right: 8.5rem;
   }
 
-  .dis
+  .footer__disclaimer-wrapper {
+    width: 280px;
+    height: 280px;
+  }
 
 
   .footer__copyright-mobile {
