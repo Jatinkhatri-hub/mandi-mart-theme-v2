@@ -17,5 +17,6 @@
 
 .iwt__img {
   width: 355px;
-  height: ;
+  height: 280px;
+  object-fit: contain;
 }
