@@ -99,8 +99,8 @@
   text-align: center;
 }
 
-.footer__copyright-mobile {
+.footer__copyright-mobile p{
   font-size: 16px;
   text-align: center;
-  
+  margin: 0;
 }
