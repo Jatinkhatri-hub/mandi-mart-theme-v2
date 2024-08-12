@@ -24,4 +24,10 @@
   display: none;
 }
 
-.footer__pa
+.footer__payment-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 350px;
+}
