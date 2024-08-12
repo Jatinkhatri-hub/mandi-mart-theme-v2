@@ -133,9 +133,12 @@
     height: 28px;
   }
 
+  .footer__menu
+
   .footer__menu-item {
     margin-bottom: 8.5rem;
   }
+
 
   .footer__copyright-mobile {
     display: none;
