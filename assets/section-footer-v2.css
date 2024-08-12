@@ -59,5 +59,6 @@
 
 .footer__menu-child_item-wrapper a {
   color: rbg(var(--color-foreground));
+  font-size: 16px;
   
 }
