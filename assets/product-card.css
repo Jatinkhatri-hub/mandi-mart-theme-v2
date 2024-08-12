@@ -3,7 +3,14 @@
 }
 
 
-.product
+.collection__product-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: row;
+
+}
 
 .product-card__wrapper {
   display: flex;
