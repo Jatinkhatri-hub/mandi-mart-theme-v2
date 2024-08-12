@@ -82,6 +82,8 @@
   align-items: center;
   padding: 2rem;
   flex-direction: column;
+  overflow: hidden;
+  
 
 }
 
