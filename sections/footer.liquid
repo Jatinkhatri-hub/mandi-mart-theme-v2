@@ -22,7 +22,7 @@
           {% assign menu_started = true %}
       {% endif %}
 
-      {% if block.type != 'footer_menu' and footer_started == true and footer_closed == false %}
+      {% if block.type != 'footer_menu' and menu_started == true and menu_closed == false %}
 
         </div>
         {% assign footer_closed = true %}
@@ -63,7 +63,7 @@
           {% endfor %}
         {% when 'disclaimer' %}
           <div class="footer__disclaimer-wrapper" style="background: {{ block.settings.background_color }}; color: {{ block.settings.text_color }}">
-            <h1 class="footer__disclaimer-title">{{ block.settings.title }}</h1>
+            <h1 class="footer__disclaimer-title poppins-bold">{{ block.settings.title }}</h1>
             {{ block.settings.description }}
           </div>
       {% endcase %}
