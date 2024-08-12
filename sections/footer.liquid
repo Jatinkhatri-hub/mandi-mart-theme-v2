@@ -38,17 +38,18 @@
                 }}
               </div>
             {%- endif -%}
-            {% if block.settings.payment_img %}
-              <div class="footer__payment-wrapper">
-                <img src="{{ block.settings.payment_img |  img_url: 'medium' }}" class="footer__payment-img">
-              </div>
-            {% endif %}
+            
             {%- if settings.brand_headline != blank -%}
               <h2 class="footer__info-heading">{{ settings.brand_headline }}</h2>
             {%- endif -%}
             {%- if settings.brand_description != blank -%}
               <div class="footer__info-description description-desktop">{{ settings.brand_description }}</div>
             {%- endif -%}
+            {% if block.settings.payment_img %}
+              <div class="footer__payment-wrapper">
+                <img src="{{ block.settings.payment_img |  img_url: 'medium' }}" class="footer__payment-img">
+              </div>
+            {% endif %}
           </div>
         {% when 'footer_menu' %}
           {% for link in block.settings.menu.links %}
