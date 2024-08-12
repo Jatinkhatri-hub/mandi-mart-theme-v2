@@ -103,7 +103,9 @@
   }
 
   .product-card__img-wrapper {
-    width: 1;
+    height: 160px;
+    width: 300px;
+    
   }
 }
 
