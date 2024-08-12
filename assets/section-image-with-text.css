@@ -58,7 +58,7 @@
 @media screen and (min-width: 789px) {
   .iwt__wrapper {
     flex-direction: row;
-    
+
   }
   
   .iwt__img-wrapper {
@@ -70,6 +70,11 @@
     height: 385px;
     width: auto;
     object-fit: cover;
+  }
+
+  .iwt__title {
+    text-align: start;
+    
   }
 }
 
