@@ -39,4 +39,7 @@
   object-fit: contain;
 }
 
-.footer__menu
+.footer__menu-item-wrapper {
+  display: flex;
+  
+}
