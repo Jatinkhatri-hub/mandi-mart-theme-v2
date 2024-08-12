@@ -116,7 +116,6 @@
   .product-card__rating {
     flex-direction: row-reverse;
     justify-content: space-between;
-  
   }
 }
 
