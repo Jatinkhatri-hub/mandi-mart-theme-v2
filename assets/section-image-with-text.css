@@ -82,6 +82,9 @@
     font-size: 16px;
     text-align: start;
   }
-  
+
+  .iwt__button {
+    font-size: 24px;
+  }
 }
 
