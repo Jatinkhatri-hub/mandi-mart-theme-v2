@@ -20,3 +20,7 @@
   height: 280px;
   object-fit: contain;
 }
+
+.iwt__info-wrapper {
+  display: flex
+}
