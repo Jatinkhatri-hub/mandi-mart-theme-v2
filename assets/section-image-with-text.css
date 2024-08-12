@@ -32,6 +32,7 @@
 .iwt__title {
   font-size: 24px;
   text-align: center;
+  margin: 0;
 }
 
 .iwt__info-wrapper p {
@@ -39,6 +40,7 @@
   font-family: 'Poppins';
   font-weight: 400;
   text-align: center;
+  margin: 0;
 }
 
 .iwt__button {
