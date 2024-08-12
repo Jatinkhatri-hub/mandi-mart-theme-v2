@@ -1,6 +1,26 @@
 {{ 'section-footer-v2.css' | asset_url | stylesheet_tag }}
 
+{% style %}
+.custom-shape-divider-top-1719067451 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+    }
 
+    .custom-shape-divider-top-1719067451 svg {
+      position: relative;
+      display: block;
+      width: calc(134% + 1.3px);
+      height: 152px;
+    }
+
+    .custom-shape-divider-top-1719067451 .shape-fill {
+      fill: #FFFFFF;
+    }
+{% endstyle %}
 
 <div class="footer color-{{ section.settings.color_scheme }}">
   {%- liquid
