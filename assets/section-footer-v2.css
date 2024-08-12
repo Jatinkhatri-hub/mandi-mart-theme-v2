@@ -52,9 +52,9 @@
 .footer__menu-item-wrapper {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
   flex-direction: column;
-  margin-right: ;
+  margin-right: 4rem;
 }
 
 .footer__menu-item {
