@@ -39,6 +39,10 @@
   object-fit: contain;
 }
 
+.footer__menu-wrapper {
+  display: flex;
+}
+
 .footer__menu-item-wrapper {
   display: flex;
   justify-content: center;
