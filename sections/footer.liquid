@@ -17,7 +17,7 @@
     {% assign menu_closed = false %}
 
     {% for block in section.blocks %}
-      {% if block.type == 'image_carousel' and image_carousel_started == false %}
+      {% if block.type == 'footer_menu' and menu_started == false %}
         <div class="swiper mySwiper mySwiper-{{ section.id }}">
           <div class="banner__review-image-carousel swiper-wrapper">
           {% assign image_carousel_started = true %}
