@@ -133,7 +133,9 @@
     height: 28px;
   }
 
-  .footer__menu
+  .footer__menu-wrapper {
+    height: 350px;
+  }
 
   .footer__menu-item {
     margin-bottom: 8.5rem;
