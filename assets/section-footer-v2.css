@@ -91,5 +91,7 @@
 
 .footer__disclaimer-wrapper p {
   font-size: 16px;
-  font-family: '';
+  font-family: 'Poppins';
+  font-weight: 400;
+  text-align: center;
 }
