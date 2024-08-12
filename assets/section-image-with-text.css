@@ -62,7 +62,7 @@
 
 .outline-btn {
   background: none;
-  color: rgb(var(--col))
+  color: rgb(var(--color-secondary-button))
 }
 
 @media screen and (min-width: 789px) {
