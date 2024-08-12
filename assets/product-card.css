@@ -102,7 +102,10 @@
     height: 310px;
   }
 
-  .prod
+  .product-card__info {
+    width: 300px;
+    height: 150px;
+  }
 
   .product-card__img-wrapper {
     height: 160px;
