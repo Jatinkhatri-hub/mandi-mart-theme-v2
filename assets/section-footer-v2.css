@@ -5,6 +5,13 @@
   flex-direction: column;
 }
 
+.footer-padding-top {
+  padding-block: 1rem;
+}
+.wave {
+  display: none;
+}
+
 .footer-container {
   display: flex;
   justify-content: center;
