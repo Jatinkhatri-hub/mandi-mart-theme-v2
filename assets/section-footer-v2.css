@@ -50,14 +50,14 @@
   font-size: 24px;
 }
 
-.footer__menu-child_item-wrapper {
+.footer__menu-child-item-wrapper {
   display: flex;
   justify-content: center;
   align-items: baseline;
   flex-direction: column;
 }
 
-.footer__menu-child_item-wrapper a {
+.footer__menu-child-item-wrapper a {
   color: rbg(var(--color-foreground));
   font-size: 16px;
   text-decoration: none;
