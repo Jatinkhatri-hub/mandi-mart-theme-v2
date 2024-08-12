@@ -52,5 +52,11 @@
 
 .footer__menu-child_item-wrapper {
   display: flex;
-  justify-content: center
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: column;
+}
+
+.footer__menu-child_item-wrapper a {
+  
 }
