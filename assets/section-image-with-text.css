@@ -45,19 +45,18 @@
 }
 
 .iwt__button {
-  background: rgb(var(--color-button));
-  color: rgb(var(--color-button-text));
+  
   border-radius: 80px;
   padding: 1rem 8rem;
   text-transform: capitalize;
   border: none;
   outline: none;
   font-size: 24px;
-  border: 4px solid rgb(var(--color-button-text));
 }
 
 .solid-btn {
-  
+  background: rgb(var(--color-button));
+  color: rgb(var(--color-button-text));
 }
 
 @media screen and (min-width: 789px) {
