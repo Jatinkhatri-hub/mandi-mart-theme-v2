@@ -41,6 +41,9 @@
 
 .footer__menu-wrapper {
   display: flex;
+  align-items: baseline;
+  justify-content: center;
+  
 }
 
 .footer__menu-item-wrapper {
