@@ -120,8 +120,10 @@
 
   .product-card__title {
     text-align: start;
-    font
+    font-size: 16px;
   }
+
+  
 }
 
 
