@@ -60,6 +60,10 @@
   border: 4px solid rgb(var(--color-button-text));
 }
 
+.solid-btn:hover {
+  
+}
+
 .outline-btn {
   background: none;
   color: rgb(var(--color-secondary-button-text));
