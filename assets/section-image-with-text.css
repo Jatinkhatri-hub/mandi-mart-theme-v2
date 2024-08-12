@@ -1,3 +1,7 @@
 .iwt__wrapper {
-  ds
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 18px;
 }
