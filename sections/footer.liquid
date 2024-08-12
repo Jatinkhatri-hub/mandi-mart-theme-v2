@@ -1,5 +1,4 @@
-{{ 'section-footer-v2.css' |  asset_url |  stylesheet_tag }}
-
+{{ 'section-footer-v2.css' | asset_url | stylesheet_tag }}
 
 
 <div class="footer color-{{ section.settings.color_scheme }}">
@@ -15,7 +14,7 @@
   -%}
   <div class="footer-container">
     {% assign menu_started = false %}
-    {% assign menu_closed = false %} 
+    {% assign menu_closed = false %}
 
     {% for block in section.blocks %}
       {% case block.type %}
@@ -29,9 +28,9 @@
                 }}
               </div>
             {%- endif -%}
-            {% if block.settings.payment_img %} 
+            {% if block.settings.payment_img %}
               <div class="footer__payment-wrapper">
-                <img src="{{ block.settings.payment_img |  img_url: 'medium' }}"  class="footer__payment-img">
+                <img src="{{ block.settings.payment_img |  img_url: 'medium' }}" class="footer__payment-img">
               </div>
             {% endif %}
             {%- if settings.brand_headline != blank -%}
@@ -42,10 +41,16 @@
             {%- endif -%}
           </div>
         {% when 'footer_menu' %}
-          
-          <div class="">
-
-          </div>
+          {% for link in block.settings.menu.links %}
+            <div class="footer__menu-item-wrapper">
+              <h2>{{ link.title }}</h2>
+              <div class="footer__menu-child-item-wrapper">
+                {% for child in link.links %}
+                  <a href="{{ child.url }}">{{ child.title }}</a>
+                {% endfor %}
+              </div>
+            </div>
+          {% endfor %}
       {% endcase %}
     {% endfor %}
 
@@ -72,21 +77,23 @@
           {
             "type": "paragraph",
             "content": "t:sections.footer.blocks.brand_information.settings.paragraph.content"
-          }, {
+          },
+          {
             "type": "header",
             "content": "t:sections.footer.blocks.brand_information.settings.header__1.content"
-          }, {
+          },
+          {
             "type": "checkbox",
             "id": "show_social",
             "default": true,
             "label": "t:sections.footer.blocks.brand_information.settings.show_social.label",
             "info": "t:sections.footer.blocks.brand_information.settings.show_social.info"
-          }, {
+          },
+          {
             "type": "text",
             "id": "copyright_text_block",
             "label": "Copyright Info"
-          },
-          {
+          }, {
             "type": "image_picker",
             "id": "payment_img",
             "label": "Payment Image"
