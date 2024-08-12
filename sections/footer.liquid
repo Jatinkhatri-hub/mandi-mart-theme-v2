@@ -62,7 +62,7 @@
             </div>
           {% endfor %}
         {% when 'disclaimer' %}
-          <div class="footer__disclaimer-wrapper" style="background: {{ block.settings.background_color }}; color: {{  }}">
+          <div class="footer__disclaimer-wrapper" style="background: {{ block.settings.background_color }}; color: {{ block.settings.text_color }}">
             <h1 class="footer__disclaimer-title">{{ block.settings.title }}</h1>
             {{ block.settings.description }}
           </div>
