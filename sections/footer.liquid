@@ -12,7 +12,7 @@
       assign brand_empty = true
     endif
   -%}
-  <div class="footer-container">
+  <di class="footer-container">
     {% assign menu_started = false %}
     {% assign menu_closed = false %}
 
@@ -24,7 +24,6 @@
 
       {% if block.type != 'footer_menu' and footer_started == true and footer_closed == false %}
 
-        </div>
         </div>
         {% assign footer_closed = true %}
       {% endif %}
