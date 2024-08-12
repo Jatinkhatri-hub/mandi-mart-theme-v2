@@ -21,10 +21,17 @@
             "copyright_text_block": "",
             "payment_img": "shopify:\/\/shop_images\/Group_110.png"
           }
+        },
+        "footer_menu_HFEFaX": {
+          "type": "footer_menu",
+          "settings": {
+            "menu": "footer-menu-mm"
+          }
         }
       },
       "block_order": [
-        "brand_information_rm7JcD"
+        "brand_information_rm7JcD",
+        "footer_menu_HFEFaX"
       ],
       "settings": {
         "color_scheme": "scheme-9f02c4f4-556a-4860-95d4-e4105dc2313e"
