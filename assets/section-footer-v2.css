@@ -102,7 +102,6 @@
 .footer__copyright-mobile p{
   font-size: 16px;
   text-align: center;
-  display: block;
 }
 
 
@@ -111,7 +110,7 @@
     flex-direction: row;
   }
 
-  .footer-container {
+  .footer__copyright-mobile {
     display: none;
   }
 }
