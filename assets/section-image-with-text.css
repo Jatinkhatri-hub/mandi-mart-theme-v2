@@ -60,6 +60,11 @@
   border: 4px solid rgb(var(--color-button-text));
 }
 
+.outline-btn {
+  background: none;
+  
+}
+
 @media screen and (min-width: 789px) {
   .iwt__wrapper {
     flex-direction: row;
