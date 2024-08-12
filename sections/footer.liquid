@@ -19,10 +19,10 @@
     {% for block in section.blocks %}
       {% if block.type == 'footer_menu' and menu_started == false %}
         <div class="footer__menu-wrapper">
-          {% assign image_carousel_started = true %}
+          {% assign menu_started = true %}
       {% endif %}
 
-      {% if block.type != 'image_carousel' and image_carousel_started == true and image_carousel_closed == false %}
+      {% if block.type != 'footer_menu' and footer_started == true and image_carousel_closed == false %}
 
         </div>
         </div>
