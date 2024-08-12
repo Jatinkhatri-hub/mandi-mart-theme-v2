@@ -74,7 +74,7 @@
 
 .outline-btn:hover {
   background: rgb(var(--color-secondary-button-text));;
-  color: ;
+  color: rgb(var(--color-));
   border: 4px solid none;
 }
 
