@@ -133,6 +133,10 @@
     height: 28px;
   }
 
+  .footer__menu-item {
+    margin-bottom: ;
+  }
+
   .footer__copyright-mobile {
     display: none;
   }
