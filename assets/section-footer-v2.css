@@ -115,6 +115,7 @@
 
   .footer__brand-info {
     width: 380px;
+    align-items: baseline;
   }
 
   .description-desktop {
