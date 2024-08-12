@@ -42,5 +42,6 @@
 
 .iwt__button {
   background: rgb(var(--color-foreground));
+  color: rgb(var(--color-backg))
 }
 
