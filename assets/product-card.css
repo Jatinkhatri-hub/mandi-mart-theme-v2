@@ -128,7 +128,13 @@
     justify-content: space-between;
   }
 
-  .prod
+  .product-card__info-footer span {
+    font-size: 22px;
+  }
+
+  .product-card__atc-btn {
+    
+  }
 }
 
 
