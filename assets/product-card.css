@@ -119,7 +119,8 @@
   }
 
   .product-card__title {
-    te
+    text-align: start;
+    font
   }
 }
 
