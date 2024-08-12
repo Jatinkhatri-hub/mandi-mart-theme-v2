@@ -102,6 +102,7 @@
 .footer__copyright-mobile p{
   font-size: 16px;
   text-align: center;
+  display: block;
 }
 
 
@@ -111,6 +112,6 @@
   }
 
   .footer-container {
-    dis
+    display: none;
   }
 }
