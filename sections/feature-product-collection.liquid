@@ -25,7 +25,7 @@
     </div>
 
     <div class="collection__product-wrapper mySwiper swiper mySwiper-{{ section.id }}">
-      
+      <div class="swiper-wrapper">
       {% assign products_per_slide = section.settings.products_per_slide_mobile %}
       {% if screen_size == 'desktop' %}
         {% assign products_per_slide = section.settings.products_per_slide_desktop %}
