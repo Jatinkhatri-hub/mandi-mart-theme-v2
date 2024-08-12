@@ -125,11 +125,12 @@
   .footer__payment-wrapper {
     width: 380px;
     height: 28px;
+    margin: 0;
   }
 
   .footer__payment-img {
     width: 380px;
-    height: ;
+    height: 28px;
   }
 
   .footer__copyright-mobile {
