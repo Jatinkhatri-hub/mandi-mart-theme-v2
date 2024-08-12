@@ -47,6 +47,7 @@
   padding: 0 2.5rem;
   height: 310px;
   flex-wrap: wrap;
+  gap: 3rem;
 }
 
 .footer__menu-item-wrapper {
