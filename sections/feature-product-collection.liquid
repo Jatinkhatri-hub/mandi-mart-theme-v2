@@ -65,10 +65,19 @@
       },
       {
         "type": "range",
-        "id": "products_per_slide",
-        "label": "Number of Products per Slide",
+        "id": "products_per_slide_mobile",
+        "label": "Number of Products per Slide on Mobile",
         "min": 1,
-        "max": 10,
+        "max": 4,
+        "step": 1,
+        "default": 2
+      },
+      {
+        "type": "range",
+        "id": "products_per_slide_desktop",
+        "label": "Number of Products per Slide on Desktop",
+        "min": 1,
+        "max": 8,
         "step": 1,
         "default": 4
       },
@@ -77,8 +86,7 @@
         "id": "section_color_scheme",
         "label": "t:sections.all.colors.label",
         "default": "scheme-1"
-      },
-      {
+      }, {
         "type": "collection",
         "id": "collection",
         "label": "Collection"
