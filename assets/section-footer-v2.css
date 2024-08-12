@@ -11,3 +11,9 @@
   align-items: center;
   flex-direction:  column;
 }
+
+.footer-brand__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
