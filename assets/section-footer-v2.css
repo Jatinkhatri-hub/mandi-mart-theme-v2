@@ -83,8 +83,7 @@
   padding: 2rem;
   flex-direction: column;
   overflow: hidden;
-  
-
+  border-radius: 8px;
 }
 
 .footer__disclaimer-title {
