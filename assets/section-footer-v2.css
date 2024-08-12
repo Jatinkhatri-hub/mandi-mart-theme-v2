@@ -135,6 +135,8 @@
 
   .footer__menu-wrapper {
     height: 350px;
+    gap: 0;
+    margin-right: ;
   }
 
   .footer__menu-item {
