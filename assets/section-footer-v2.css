@@ -41,5 +41,8 @@
 
 .footer__menu-item-wrapper {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   
 }
