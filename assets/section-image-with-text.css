@@ -56,7 +56,10 @@
 }
 
 @media screen and (min-width: 789px) {
-  iw
+  .iwt__wrapper {
+    flex-direction: row;
+    
+  }
   
   .iwt__img-wrapper {
     height: 385px;
