@@ -32,4 +32,7 @@
   height: 350px;
 }
 
-.foo
+.footer__payment-img {
+  width: 25px;
+  height: 350px;
+}
