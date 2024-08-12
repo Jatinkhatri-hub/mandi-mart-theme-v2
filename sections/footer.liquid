@@ -26,6 +26,11 @@
                 }}
               </div>
             {%- endif -%}
+            {% if block.settings.payment_img %} 
+              <div class="footer__payment-wrapper">
+                <img src="">
+              </div>
+            {% endif %}
             {%- if settings.brand_headline != blank -%}
               <h2 class="footer__info-heading">{{ settings.brand_headline }}</h2>
             {%- endif -%}
