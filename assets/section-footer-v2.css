@@ -7,5 +7,7 @@
 
 .footer-container {
   display: flex;
-  js
+  justify-content: center;
+  align-items: center;
+  flex
 }
