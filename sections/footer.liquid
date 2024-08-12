@@ -43,7 +43,7 @@
         {% when 'footer_menu' %}
           {% for link in block.settings.menu.links %}
             <div class="footer__menu-item-wrapper">
-              <h2>{{ link.title }}</h2>
+              <h2 class="footer__menu-item poppins-bold">{{ link.title }}</h2>
               <div class="footer__menu-child-item-wrapper">
                 {% for child in link.links %}
                   <a href="{{ child.url }}">{{ child.title }}</a>
