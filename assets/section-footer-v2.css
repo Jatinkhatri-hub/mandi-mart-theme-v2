@@ -122,6 +122,10 @@
     display: block;
   }
 
+  .footer__payment-wrapper {
+    width: ;
+  }
+
   .footer__copyright-mobile {
     display: none;
   }
