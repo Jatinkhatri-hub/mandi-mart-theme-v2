@@ -2,6 +2,9 @@
   font-size: 24px;
 }
 
+
+.product
+
 .product-card__wrapper {
   display: flex;
   flex-direction: column;
