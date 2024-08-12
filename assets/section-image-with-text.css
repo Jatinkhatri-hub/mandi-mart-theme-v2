@@ -45,8 +45,8 @@
 }
 
 .iwt__button {
-  background: rgb(var(--color-foreground));
-  color: rgb(var(--color-button));
+  background: rgb(var(--color-button));
+  color: rgb(var(--color-button-text));
   border-radius: 80px;
   padding: 1rem 8rem;
   text-transform: capitalize;
