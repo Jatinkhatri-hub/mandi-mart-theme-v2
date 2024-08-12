@@ -113,6 +113,10 @@
     justify-content: space-evenly;
   }
 
+  .footer__brand-info {
+    width: 380px;
+  }
+
   .description-desktop {
     display: block;
   }
