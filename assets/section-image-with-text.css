@@ -45,6 +45,6 @@
   color: rgb(var(--color-background));
   border-radius: 80px;
   padding: 1rem 8rem;
-  
+  text-transform: capitalize;
 }
 
