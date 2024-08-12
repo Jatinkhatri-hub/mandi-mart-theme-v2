@@ -105,6 +105,18 @@
       }
     });
 
+    function adjustSlides() {
+    var isDesktop = window.matchMedia('(min-width: 768px)').matches;
+    var productsPerSlide = isDesktop ? productsPerSlideDesktop : productsPerSlideMobile;
+
+    document.querySelectorAll('.swiper-slide').forEach(function (slide) {
+      var productCards = slide.querySelectorAll('.product-card__wrapper.custom-card');
+      productCards.forEach(function (card, index) {
+        card.style.display = index < productsPerSlide ? 'block' : 'none';
+      });
+    });
+  }
+
     swiper.init();
     swiper.update();
   } else {
