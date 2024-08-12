@@ -111,6 +111,10 @@
   .footer-padding-top {
     padding-top: 8rem;
   }
+
+  .wave {
+    display: block;
+  }
   
   .footer-container {
     flex-direction: row;
