@@ -14,6 +14,9 @@
     endif
   -%}
   <div class="footer-container">
+    {% assign menu_started = false %}
+    {% assign menu_closed = false %} 
+
     {% for block in section.blocks %}
       {% case block.type %}
         {% when 'brand_information' %}
