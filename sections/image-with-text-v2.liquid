@@ -22,7 +22,7 @@
         {% for block in section.blocks %}
           {% case block.type %}
             {% when 'title' %}
-              <h1>{{ block.settings.title }}</h1>
+              <h1 class="iwt">{{ block.settings.title }}</h1>
           {% endcase %}
         {% endfor %}
       </div>
