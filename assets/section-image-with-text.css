@@ -60,8 +60,6 @@
     flex-direction: row;
 
   }
-
-  
   
   .iwt__img-wrapper {
     height: 385px;
@@ -72,6 +70,10 @@
     height: 385px;
     width: auto;
     object-fit: cover;
+  }
+
+  .iwt__info-wrapper {
+    jus
   }
 
   .iwt__title {
