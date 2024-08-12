@@ -107,7 +107,7 @@
           "settings": {
             "button_label": "Button",
             "button_url": "",
-            "outline_btn": true
+            "outline_btn": false
           }
         }
       },
