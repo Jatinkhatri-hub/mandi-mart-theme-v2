@@ -68,6 +68,9 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
+    var productsPerSlideMobile = {{ section.settings.products_per_slide_mobile }};
+    var productsPerSlideDesktop = {{ section.settings.products_per_slide_desktop }};
+
   const id = "{{ section.id }}";
   
   const swiperClass = `.mySwiper-${id}`;
