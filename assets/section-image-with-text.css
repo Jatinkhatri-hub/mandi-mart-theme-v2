@@ -64,7 +64,7 @@
   .iwt__img {
     height: 385px;
     width: auto;
-    he
+    object-fit: cover;
   }
 }
 
