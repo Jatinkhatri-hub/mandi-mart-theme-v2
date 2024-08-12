@@ -42,7 +42,7 @@
 .footer__menu-wrapper {
   display: flex;
   align-items: baseline;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
   padding: 0 2.5rem;
   height: 310px;
@@ -54,6 +54,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-right: ;
 }
 
 .footer__menu-item {
