@@ -22,11 +22,11 @@
           {% assign menu_started = true %}
       {% endif %}
 
-      {% if block.type != 'footer_menu' and footer_started == true and image_carousel_closed == false %}
+      {% if block.type != 'footer_menu' and footer_started == true and footer_closed == false %}
 
         </div>
         </div>
-        {% assign image_carousel_closed = true %}
+        {% assign footer_closed = true %}
       {% endif %}
       {% case block.type %}
         {% when 'brand_information' %}
