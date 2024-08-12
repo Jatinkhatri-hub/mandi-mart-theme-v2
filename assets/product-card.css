@@ -11,6 +11,8 @@
   height: 375px;
   border: .75px solid #D3E0DF;
   background: white;
+  text-decoration: none;
+  
 }
 
 .product-card__wrapper:hover {
