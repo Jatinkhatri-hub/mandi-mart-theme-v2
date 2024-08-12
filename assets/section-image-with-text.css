@@ -56,8 +56,8 @@
   border: 4px solid rgb(var(--color-button-text));
 }
 
-.iwt__button {
-
+.solid-btn {
+  
 }
 
 @media screen and (min-width: 789px) {
