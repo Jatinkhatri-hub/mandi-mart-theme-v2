@@ -21,7 +21,12 @@
     </div>
 
     <div class="collection__product-wrapper">
-      {% for product in section.settings.collection.products %}
+      {% assign products_per_slide = section.settings.products_per_slide_mobile %}
+      {% if screen_size == 'desktop' %}
+        {% assign products_per_slide = section.settings.products_per_slide_desktop %}
+      {% endif %}
+
+      {% for product in section.settings.collection.products limit: products_per_slide %}
         <a href="#" class="product-card__wrapper custom-card">
           <div class="product-card__img-wrapper">
             <img src="{{ product.featured_image |  img_url: 'medium' }}" class="product-card__img">
