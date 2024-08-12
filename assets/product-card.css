@@ -102,6 +102,8 @@
     height: 310px;
   }
 
+  .prod
+
   .product-card__img-wrapper {
     height: 160px;
     width: 300px;
@@ -133,7 +135,7 @@
   }
 
   .product-card__atc-btn {
-    
+
   }
 }
 
