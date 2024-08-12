@@ -106,5 +106,7 @@
 
 
 @media screen and (max-width: 789px) {  
-  .footer
+  .footer-container {
+    flex-direction: row;
+  }
 }
