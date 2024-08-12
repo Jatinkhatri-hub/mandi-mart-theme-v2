@@ -116,7 +116,7 @@
 @media screen and (min-width: 789px) {
 
   .collection__product-wrapper {
-    font
+    gap: 20px
   }
 
   
