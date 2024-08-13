@@ -122,7 +122,10 @@
 @media screen and (min-width: 789px) {
 
 
-  
+  .product-collection__header {
+    margin-bottom: 3rem;
+  }
+
   .product-collection__header h2 {
     font-size: 37px;
   }
