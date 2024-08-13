@@ -28,6 +28,7 @@
   background: white;
   text-decoration: none;
   color:#737373;
+  position: relative;
 }
 
 .product-card__wrapper:hover {
