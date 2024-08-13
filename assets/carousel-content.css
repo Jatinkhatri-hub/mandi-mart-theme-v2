@@ -78,7 +78,9 @@
 }
 
 
-.carousel-lis
+.carousel-list-item {
+    font-size: 1.8rem;
+}
 
 
 .carousel-list-item svg {
