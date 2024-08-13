@@ -20,7 +20,7 @@
         <h3 class="brand-directory-heading">{{ section.settings.heading }}</h3>
         <div class="brand-directory-container">
             {% for block in section.blocks %}
-            <a href="{{ block.settings.collection.url }}" class="brand-item ">
+            <a href="{{ block.settings.collection.url }}" class="brand-item custom-card">
                 <div class="brand-content">
                   {% if block.settings.collection.image.src != blank %}
                     <img src="{{ block.settings.collection.image.src | img_url: '720x' }}" alt="{{ block.settings.brand_text }}">
