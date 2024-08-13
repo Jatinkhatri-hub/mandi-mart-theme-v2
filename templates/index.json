@@ -142,10 +142,10 @@
     "feature_product_collection_AEqyqH": {
       "type": "feature-product-collection",
       "settings": {
-        "heading": "Heading",
+        "heading": "Featured Products",
         "products_per_slide_mobile": 2,
         "products_per_slide_desktop": 4,
-        "section_color_scheme": "",
+        "section_color_scheme": "scheme-388ed92d-3860-482d-bfdc-6d2472a3c501",
         "collection": "best-sellers",
         "color_scheme": "",
         "padding_top": 0,
