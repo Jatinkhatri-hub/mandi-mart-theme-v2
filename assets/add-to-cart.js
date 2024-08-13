@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   buttons.forEach(button => {
     button.addEventListener('click', async function(event) {
+      event.preventDefault();
       
       const variantId = this.getAttribute('data-variant-id');
 
