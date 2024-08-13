@@ -70,9 +70,9 @@ body {
     }
     .carousel-control-prev,
     .carousel-control-next {
-        height: 7rem;
-        width: 7rem;
-        font-size: 4rem;
+        height: 3rem;
+        width: 3rem;
+        font-size: 1rem;
     }
 }
 
@@ -81,10 +81,10 @@ body {
         font-size: 7px;
     } */
     .hero-carousel {
-        height: 110rem;
+        height: 70rem;
     }
     .carousel-item {
-        height: 110rem;
+        height: 70rem;
     }
     .carousel-control-prev,
     .carousel-control-next {
