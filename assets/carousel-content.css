@@ -27,6 +27,8 @@
     text-align: left; */
     width: fit-content;
     box-sizing: border-box;
+    display: flex;
+    align-items: center;
 }
 
 .carousel-container.left {
@@ -144,7 +146,7 @@
     .carousel-list-item {
         font-size: 1.4rem;
         margin: 1rem;
-        padding: 1rem 3rem;
+        padding: .3rem 2rem;
         border-radius: 3rem;
     }
     .carousel-button {
