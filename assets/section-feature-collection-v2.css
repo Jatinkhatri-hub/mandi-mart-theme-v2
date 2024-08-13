@@ -1,4 +1,6 @@
-collection__
+.collection-container {
+  position: relative;
+}
 
 .feature-collection__wrapper {
   display: flex;
