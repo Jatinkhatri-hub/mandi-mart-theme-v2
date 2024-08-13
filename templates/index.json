@@ -147,7 +147,7 @@
         "products_per_slide_desktop": 4,
         "section_color_scheme": "scheme-388ed92d-3860-482d-bfdc-6d2472a3c501",
         "collection": "best-sellers",
-        "color_scheme": "scheme-a9e624eb-8f83-4586-b4d8-6ed5af1ccde1",
+        "color_scheme": "scheme-388ed92d-3860-482d-bfdc-6d2472a3c501",
         "padding_top": 0,
         "padding_bottom": 36
       }
@@ -188,6 +188,84 @@
       ],
       "settings": {
         "section_heading": "",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_review_9apyB3": {
+      "type": "section-review",
+      "blocks": {
+        "review_carousle_UQwDzj": {
+          "type": "review_carousle",
+          "settings": {
+            "user_name": "Name",
+            "user_description": "Lorem ipsum dolor sit amet consectetur. Mattis risus neque sed pulvinar in amet sed. Nibh et congue cursus malesuada morbi nunc. Donec mus vitae aliquam scelerisque"
+          }
+        },
+        "review_carousle_gKjwe7": {
+          "type": "review_carousle",
+          "settings": {
+            "user_name": "Name",
+            "user_description": "Lorem ipsum dolor sit amet consectetur. Mattis risus neque sed pulvinar in amet sed. Nibh et congue cursus malesuada morbi nunc. Donec mus vitae aliquam scelerisque"
+          }
+        },
+        "review_carousle_CgCTDM": {
+          "type": "review_carousle",
+          "settings": {
+            "user_name": "Name",
+            "user_description": "Lorem ipsum dolor sit amet consectetur. Mattis risus neque sed pulvinar in amet sed. Nibh et congue cursus malesuada morbi nunc. Donec mus vitae aliquam scelerisque"
+          }
+        },
+        "review_carousle_gLm8yk": {
+          "type": "review_carousle",
+          "settings": {
+            "user_name": "Name",
+            "user_description": "Lorem ipsum dolor sit amet consectetur. Mattis risus neque sed pulvinar in amet sed. Nibh et congue cursus malesuada morbi nunc. Donec mus vitae aliquam scelerisque"
+          }
+        },
+        "review_carousle_3Exm9P": {
+          "type": "review_carousle",
+          "settings": {
+            "user_name": "Name",
+            "user_description": "Lorem ipsum dolor sit amet consectetur. Mattis risus neque sed pulvinar in amet sed. Nibh et congue cursus malesuada morbi nunc. Donec mus vitae aliquam scelerisque"
+          }
+        },
+        "review_carousle_VpxLGz": {
+          "type": "review_carousle",
+          "settings": {
+            "user_name": "Name",
+            "user_description": "Lorem ipsum dolor sit amet consectetur. Mattis risus neque sed pulvinar in amet sed. Nibh et congue cursus malesuada morbi nunc. Donec mus vitae aliquam scelerisque"
+          }
+        },
+        "review_carousle_477YNg": {
+          "type": "review_carousle",
+          "settings": {
+            "user_name": "Name",
+            "user_description": "Lorem ipsum dolor sit amet consectetur. Mattis risus neque sed pulvinar in amet sed. Nibh et congue cursus malesuada morbi nunc. Donec mus vitae aliquam scelerisque"
+          }
+        },
+        "review_carousle_UpggHV": {
+          "type": "review_carousle",
+          "settings": {
+            "user_name": "Name",
+            "user_description": "Lorem ipsum dolor sit amet consectetur. Mattis risus neque sed pulvinar in amet sed. Nibh et congue cursus malesuada morbi nunc. Donec mus vitae aliquam scelerisque"
+          }
+        }
+      },
+      "block_order": [
+        "review_carousle_UQwDzj",
+        "review_carousle_gKjwe7",
+        "review_carousle_CgCTDM",
+        "review_carousle_gLm8yk",
+        "review_carousle_3Exm9P",
+        "review_carousle_VpxLGz",
+        "review_carousle_477YNg",
+        "review_carousle_UpggHV"
+      ],
+      "settings": {
+        "heading": "<p>Rich text<\/p>",
         "section_color_scheme": "",
         "color_scheme": "",
         "padding_top": 36,
@@ -329,6 +407,7 @@
     "featured_collection_v2_ATCeeg",
     "feature_product_collection_AEqyqH",
     "brand_collection_list_two_Htk8JA",
+    "section_review_9apyB3",
     "image_with_text_v2_CPCYg7",
     "feature_product_collection_XgKTg7",
     "brand_collection_a4bQRg",
