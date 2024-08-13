@@ -7,7 +7,7 @@
 }
 
 .product-collection__header h2 {
-  color: rgb(var(--color-foreground));
+  color: rgb(var(--color-foreground)) !important;
 }
 
 
