@@ -14,13 +14,13 @@
     }
   {%- endstyle -%}
   
-  <div class="section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
+  <div class="section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }} custom-section">
     <div class="page-width color-{{ section.settings.color_scheme }}">
     <div class="brand-directory-content">
         <h3 class="brand-directory-heading">{{ section.settings.heading }}</h3>
         <div class="brand-directory-container">
             {% for block in section.blocks %}
-            <a href="{{ block.settings.collection.url }}" class="brand-item">
+            <a href="{{ block.settings.collection.url }}" class="brand-item ">
                 <div class="brand-content">
                   {% if block.settings.collection.image.src != blank %}
                     <img src="{{ block.settings.collection.image.src | img_url: '720x' }}" alt="{{ block.settings.brand_text }}">
