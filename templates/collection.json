@@ -12,6 +12,8 @@
     "banner": {
       "type": "coll-section",
       "settings": {
+        "heading": "",
+        "subhead": ""
       }
     },
     "product-grid": {
@@ -21,7 +23,24 @@
     },
     "review": {
       "type": "section-review",
+      "blocks": {
+        "review_carousle_ncJCTe": {
+          "type": "review_carousle",
+          "settings": {
+            "user_name": "Name",
+            "user_description": "Lorem ipsum dolor sit amet"
+          }
+        }
+      },
+      "block_order": [
+        "review_carousle_ncJCTe"
+      ],
       "settings": {
+        "heading": "<p>Rich text<\/p>",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
