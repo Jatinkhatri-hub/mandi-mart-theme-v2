@@ -159,6 +159,10 @@
     margin-right: 8.5rem;
   }
 
+  .footer__menu-child-item-wrapper a {
+    font-size: 20px;
+  }
+
   .footer__disclaimer-wrapper {
     width: 280px;
     height: 280px;
