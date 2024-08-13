@@ -71,7 +71,8 @@
 
     .explore-categories-container a {
         display: flex;
-        
+        justify-content: center;
+        align-items: center;
     }
 
     .image-1 {
