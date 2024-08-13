@@ -9,6 +9,45 @@
 */
 {
   "sections": {
+    "hero_carousel_xJyTmP": {
+      "type": "hero-carousel",
+      "blocks": {
+        "image_BM4eLH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/yellow-winner-podium-pedestal-showcase-product-space-presentation-background-3d-rendering_copy_3_466d1b3a-ada9-4e38-81e6-8da3eeb41cbe.png",
+            "alt": "Slide",
+            "carousel_heading": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+            "carousel_sub_heading": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, architecto. Atque voluptate delectus deleniti labore laborum?",
+            "carousel_list_item_1": "Lorem ipsum dolor",
+            "carousel_list_item_2": "Lorem ipsum dolor",
+            "carousel_list_item_3": "Lorem ipsum dolor",
+            "carousel_button_text": "CTA TEXT",
+            "carousel_alignment": "left"
+          }
+        },
+        "image_aDp3cD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/two-people-surfing-in-blue-choppy-water.jpg",
+            "alt": "Slide",
+            "carousel_heading": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+            "carousel_sub_heading": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, architecto. Atque voluptate delectus deleniti labore laborum?",
+            "carousel_list_item_1": "Lorem ipsum dolor",
+            "carousel_list_item_2": "Lorem ipsum dolor",
+            "carousel_list_item_3": "Lorem ipsum dolor",
+            "carousel_button_text": "CTA TEXT",
+            "carousel_alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "image_BM4eLH",
+        "image_aDp3cD"
+      ],
+      "settings": {
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -35,6 +74,7 @@
         "heading",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "image_overlay_opacity": 40,
         "image_height": "large",
@@ -266,6 +306,7 @@
     }
   },
   "order": [
+    "hero_carousel_xJyTmP",
     "image_banner",
     "featured_collection_v2_ATCeeg",
     "feature_product_collection_AEqyqH",
