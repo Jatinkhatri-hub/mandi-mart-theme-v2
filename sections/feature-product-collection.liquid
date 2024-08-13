@@ -30,7 +30,9 @@
       {% for product in section.settings.collection.products %}
         {%  assign index8 = forloop.index0 |  modulo: 8 %}
         
-        {}
+        {% if index8 == 0 %}
+        
+        {% endif %}
         <a href="#" class="product-card__wrapper custom-card">
           <div class="product-card__img-wrapper">
             <img src="{{ product.featured_image |  img_url: 'medium' }}" class="product-card__img">
