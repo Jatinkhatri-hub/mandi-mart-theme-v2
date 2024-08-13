@@ -117,15 +117,36 @@
         "brand_card_Ahzbhz": {
           "type": "brand_card",
           "settings": {
-            "collection": ""
+            "collection": "aspire-nutrition"
+          }
+        },
+        "brand_card_3jrkAq": {
+          "type": "brand_card",
+          "settings": {
+            "collection": "spectrum-awakening"
+          }
+        },
+        "brand_card_gcKWPD": {
+          "type": "brand_card",
+          "settings": {
+            "collection": "anrc-protocol"
+          }
+        },
+        "brand_card_G3te4e": {
+          "type": "brand_card",
+          "settings": {
+            "collection": "biom"
           }
         }
       },
       "block_order": [
-        "brand_card_Ahzbhz"
+        "brand_card_Ahzbhz",
+        "brand_card_3jrkAq",
+        "brand_card_gcKWPD",
+        "brand_card_G3te4e"
       ],
       "settings": {
-        "section_heading": "Brand",
+        "section_heading": "",
         "section_color_scheme": "",
         "color_scheme": "",
         "padding_top": 36,
