@@ -155,7 +155,9 @@
     }
 
     .carousel-control-prev, .carousel-control-next {
-        
+        height: 3rem;
+        width: 3rem;
+        font-size: 1rem;
     }
 }
 
