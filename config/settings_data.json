@@ -14,7 +14,7 @@
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
     "body_scale": 100,
-    "page_width": 1300,
+    "page_width": 1200,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
@@ -106,9 +106,9 @@
     "sale_badge_color_scheme": "scheme-4",
     "sold_out_badge_color_scheme": "scheme-3",
     "brand_headline": "",
-    "brand_description": "<p>Copyright © 2024, Mandi Mart. All Rights Reserved.\u2028Member of the Federation of Small Businesses : VAT No. 907545906<\/p>",
-    "brand_image": "shopify:\/\/shop_images\/image_15_3.png",
-    "brand_image_width": 250,
+    "brand_description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
+    "brand_image": "shopify:\/\/shop_images\/jive_logo_white.png",
+    "brand_image_width": 100,
     "social_facebook_link": "https:\/\/www.youtube.com\/",
     "social_instagram_link": "https:\/\/www.youtube.com\/",
     "social_youtube_link": "https:\/\/www.youtube.com\/",
@@ -203,17 +203,6 @@
       "scheme-a95b59ad-3f4e-4585-8aec-fbc029173b49": {
         "settings": {
           "background": "#0e001f",
-          "background_gradient": "",
-          "text": "#ffffff",
-          "button": "#121212",
-          "button_label": "#ffffff",
-          "secondary_button_label": "#121212",
-          "shadow": "#121212"
-        }
-      },
-      "scheme-90f179d9-6597-4ee7-8604-a9db8ae9430d": {
-        "settings": {
-          "background": "#26a49d",
           "background_gradient": "",
           "text": "#ffffff",
           "button": "#121212",
