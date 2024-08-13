@@ -68,6 +68,9 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
     }
+
+    
+
     .image-1 {
         grid-column: 1 / span 2;
         grid-row: 1 / span 1;
