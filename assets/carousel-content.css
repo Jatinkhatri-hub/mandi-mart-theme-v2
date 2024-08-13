@@ -153,6 +153,10 @@
         border-radius: 8rem;
         margin-top: 30rem;
     }
+
+    .carousel-control-prev, .carousel-control-next {
+        
+    }
 }
 
 @media(min-width : 481px) and (max-width : 700px){
