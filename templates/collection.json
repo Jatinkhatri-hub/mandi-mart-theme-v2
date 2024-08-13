@@ -18,10 +18,16 @@
       "type": "main-collection-product-grid",
       "settings": {
       }
+    },
+    "review": {
+      "type": "section-review",
+      "settings": {
+      }
     }
   },
   "order": [
     "banner",
-    "product-grid"
+    "product-grid",
+    "review"
   ]
 }
