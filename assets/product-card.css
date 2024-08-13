@@ -121,10 +121,13 @@
 
 @media screen and (min-width: 789px) {
 
+  
+  
   .collection__product-wrapper {
     gap: 15px;
     justify-content: start;
   }
+
 
   
   
