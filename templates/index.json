@@ -48,6 +48,56 @@
         "show_text_below": false
       }
     },
+    "featured_collection_v2_ATCeeg": {
+      "type": "featured-collection-v2",
+      "blocks": {
+        "collection_card_Gcc3Mn": {
+          "type": "collection_card",
+          "settings": {
+            "collection_img": "shopify:\/\/shop_images\/Ellipse_218.png",
+            "card_background": "#3AAFA9",
+            "collection": "best-sellers"
+          }
+        },
+        "collection_card_eWmL98": {
+          "type": "collection_card",
+          "settings": {
+            "collection_img": "shopify:\/\/shop_images\/Group_1000007089.png",
+            "card_background": "#3AAFA9",
+            "collection": "clearance"
+          }
+        },
+        "collection_card_egJkyg": {
+          "type": "collection_card",
+          "settings": {
+            "collection_img": "shopify:\/\/shop_images\/Ellipse_219.png",
+            "card_background": "#3AAFA9",
+            "collection": "new-products"
+          }
+        },
+        "collection_card_zzJjLj": {
+          "type": "collection_card",
+          "settings": {
+            "collection_img": "shopify:\/\/shop_images\/Group_1000007091_1.png",
+            "card_background": "#3AAFA9",
+            "collection": "shop-all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_card_Gcc3Mn",
+        "collection_card_eWmL98",
+        "collection_card_egJkyg",
+        "collection_card_zzJjLj"
+      ],
+      "settings": {
+        "heading": "",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "feature_product_collection_AEqyqH": {
       "type": "feature-product-collection",
       "settings": {
@@ -60,10 +110,33 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "brand_collection_list_two_Htk8JA": {
+      "type": "brand-collection-list-two",
+      "blocks": {
+        "brand_card_Ahzbhz": {
+          "type": "brand_card",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "brand_card_Ahzbhz"
+      ],
+      "settings": {
+        "section_heading": "Brand",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner",
-    "feature_product_collection_AEqyqH"
+    "featured_collection_v2_ATCeeg",
+    "feature_product_collection_AEqyqH",
+    "brand_collection_list_two_Htk8JA"
   ]
 }
