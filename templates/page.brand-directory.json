@@ -11,13 +11,206 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "brand_directory_NttQnM": {
+      "type": "brand-directory",
+      "blocks": {
+        "brand_NcPgnG": {
+          "type": "brand",
+          "settings": {
+            "collection": "algonot"
+          }
+        },
+        "brand_bqNVfy": {
+          "type": "brand",
+          "settings": {
+            "collection": "anrc-protocol"
+          }
+        },
+        "brand_wQdcyT": {
+          "type": "brand",
+          "settings": {
+            "collection": "custom-probiotics"
+          }
+        },
+        "brand_9ipEXr": {
+          "type": "brand",
+          "settings": {
+            "collection": "biom"
+          }
+        },
+        "brand_ymwRRA": {
+          "type": "brand",
+          "settings": {
+            "collection": "lee-silsby-enhansa"
+          }
+        },
+        "brand_cx4ywf": {
+          "type": "brand",
+          "settings": {
+            "collection": "living-supplements"
+          }
+        },
+        "brand_nRfPNJ": {
+          "type": "brand",
+          "settings": {
+            "collection": "meraki-medicinal"
+          }
+        },
+        "brand_DQBnR9": {
+          "type": "brand",
+          "settings": {
+            "collection": "metabolics"
+          }
+        },
+        "brand_FA6rA6": {
+          "type": "brand",
+          "settings": {
+            "collection": "new-beginnings"
+          }
+        },
+        "brand_a6MqaE": {
+          "type": "brand",
+          "settings": {
+            "collection": "ramp-health"
+          }
+        },
+        "brand_pJQwPm": {
+          "type": "brand",
+          "settings": {
+            "collection": "simple-spectrum"
+          }
+        },
+        "brand_bFgaV3": {
+          "type": "brand",
+          "settings": {
+            "collection": "spectrum-awakening"
+          }
+        },
+        "brand_iLc4CP": {
+          "type": "brand",
+          "settings": {
+            "collection": "everything-spectrum"
+          }
+        },
+        "brand_JMD3nb": {
+          "type": "brand",
+          "settings": {
+            "collection": "houstom-enzymes"
+          }
+        },
+        "brand_Q6zxm9": {
+          "type": "brand",
+          "settings": {
+            "collection": "premium-select-naturals"
+          }
+        },
+        "brand_tUfVAP": {
+          "type": "brand",
+          "settings": {
+            "collection": "kirkman-labs"
+          }
+        },
+        "brand_3YYXCU": {
+          "type": "brand",
+          "settings": {
+            "collection": "nature-provides"
+          }
+        },
+        "brand_amr6kF": {
+          "type": "brand",
+          "settings": {
+            "collection": "neural-balance"
+          }
+        },
+        "brand_T3pDwD": {
+          "type": "brand",
+          "settings": {
+            "collection": "neurobiologix"
+          }
+        },
+        "brand_hyafAC": {
+          "type": "brand",
+          "settings": {
+            "collection": "neuroneeds"
+          }
+        },
+        "brand_dQNrpz": {
+          "type": "brand",
+          "settings": {
+            "collection": "throne"
+          }
+        },
+        "brand_g4CyiG": {
+          "type": "brand",
+          "settings": {
+            "collection": "vanman"
+          }
+        },
+        "brand_FzibcX": {
+          "type": "brand",
+          "settings": {
+            "collection": "aspire-nutrition"
+          }
+        }
+      },
+      "block_order": [
+        "brand_NcPgnG",
+        "brand_bqNVfy",
+        "brand_wQdcyT",
+        "brand_9ipEXr",
+        "brand_ymwRRA",
+        "brand_cx4ywf",
+        "brand_nRfPNJ",
+        "brand_DQBnR9",
+        "brand_FA6rA6",
+        "brand_a6MqaE",
+        "brand_pJQwPm",
+        "brand_bFgaV3",
+        "brand_iLc4CP",
+        "brand_JMD3nb",
+        "brand_Q6zxm9",
+        "brand_tUfVAP",
+        "brand_3YYXCU",
+        "brand_amr6kF",
+        "brand_T3pDwD",
+        "brand_hyafAC",
+        "brand_dQNrpz",
+        "brand_g4CyiG",
+        "brand_FzibcX"
+      ],
+      "settings": {
+        "heading": "<p>All Brands<\/p>",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "bd_explore_gVwgqB": {
+      "type": "BD-explore",
+      "settings": {
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "image_1": "shopify:\/\/shop_images\/Group_1484579915.png",
+        "link_1": "shopify:\/\/collections\/best-sellers",
+        "image_2": "shopify:\/\/shop_images\/Group_1000007078_2.png",
+        "link_2": "shopify:\/\/collections\/clearance",
+        "image_3": "shopify:\/\/shop_images\/Group_1000007081_5.png",
+        "link_3": "shopify:\/\/collections\/new-products"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "brand_directory_NttQnM",
+    "bd_explore_gVwgqB"
   ]
 }
