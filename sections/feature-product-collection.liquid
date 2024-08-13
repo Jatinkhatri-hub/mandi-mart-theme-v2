@@ -155,6 +155,47 @@
 
 </style>
 
+<script>
+
+ document.addEventListener('DOMContentLoaded', () => {
+    const id = "{{ section.id }}"
+
+    const swiperClass = `.mySwiper-${id}`;
+    const swiperPaginationClass = `.swiper-pagination-${id}`;
+    const swiperButtonNextClass = `.button--${id}.swiper-button-next`;
+    const swiperButtonPrevClass = `.button--${id}.swiper-button-prev`;
+
+    const swiperContainer = document.querySelector(swiperClass);
+    const swiperPagination = document.querySelector(swiperPaginationClass);
+    const swiperButtonNext = document.querySelector(swiperButtonNextClass);
+    const swiperButtonPrev = document.querySelector(swiperButtonPrevClass);
+
+    let swiper = new Swiper(swiperClass, {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      navigation: {
+        nextEl: swiperButtonNextClass,
+        prevEl: swiperButtonPrevClass,
+      },
+      pagination: {
+        el: swiperPaginationClass,
+        clickable: true,
+      },
+      breakpoints: {
+        786: {
+          slidesPerView: 4,
+          spaceBetween: 10,
+          pagination: {
+            type: "progressbar"
+          },
+        }
+      },
+      observer: true, 
+      observeParents: true,
+    });    
+});
+</script>
+
 
 {% schema %}
   {
