@@ -140,3 +140,32 @@
     }
   }
 }
+
+/* COMPONENT ARTICAL CARD CUSTOM*/
+@media screen and (max-width: 769px) {
+  .card__heading.custom {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .article-card__info.custom {
+    font-size: 10px;
+  }
+
+  .article-card__excerpt.custom {
+    font-size: 14px;
+  }
+
+  .article-card__read-more {
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .article-card__read-more svg {
+    width: 20px;
+    height: 20px;
+  }
+}
