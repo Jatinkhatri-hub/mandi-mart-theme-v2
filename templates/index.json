@@ -28,6 +28,7 @@
         },
         "image_aDp3cD": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/two-people-surfing-in-blue-choppy-water.jpg",
             "alt": "Slide",
