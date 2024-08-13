@@ -2,7 +2,8 @@ document.addEventListener('DOMContentLoaded', function() {
   const buttons = document.querySelectorAll('.product-card__atc-btn');
 
   buttons.forEach(button => {
-    button.addEventListener('click', async function() {
+    button.addEventListener('click', async function(event) {
+      
       const variantId = this.getAttribute('data-variant-id');
 
       if (variantId) {
