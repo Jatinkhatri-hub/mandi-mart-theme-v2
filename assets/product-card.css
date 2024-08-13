@@ -121,7 +121,9 @@
 
 @media screen and (min-width: 789px) {
 
-  .product-collection__header 
+  .product-collection__header h2 {
+    font-size: 37px;
+  }
   
   .collection__product-wrapper {
     gap: 15px;
