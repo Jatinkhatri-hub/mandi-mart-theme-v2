@@ -36,6 +36,7 @@
 }
 
 .product-card__bages-container {
+  position: absolute;
   
 }
 
