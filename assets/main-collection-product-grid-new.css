@@ -197,7 +197,7 @@
 .collection__pagination {
   display: flex;
   justify-content: center;
-  margin-top: 5rem;
+  margin-block: 5rem;
 }
 
 .pagination__nav {
