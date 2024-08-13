@@ -15,7 +15,7 @@
     {% endif %}
 
     {% if product.metafields.custom.product_card_badge_text %}
-      <div class="product-card__badge-container" style="background-color: {{ product.metafields.custom.product_card_badge_color.value |  color_to_hex }}; color: white; ">
+      <div class="product-card__badge-container poppins-semibold" style="background-color: {{ product.metafields.custom.product_card_badge_color.value |  color_to_hex }}; color: white; ">
         {{ product.metafields.custom.product_card_badge_text }}
       </div>
     {% endif %}
