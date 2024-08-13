@@ -10,11 +10,8 @@
 {
   "sections": {
     "banner": {
-      "type": "main-collection-banner",
+      "type": "coll-section",
       "settings": {
-        "show_collection_description": true,
-        "show_collection_image": false,
-        "color_scheme": "scheme-1"
       }
     },
     "product-grid": {
