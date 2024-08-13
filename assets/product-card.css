@@ -1,4 +1,6 @@
-
+.collection-container {
+  position: relative;
+}
 
 .product-collection__header {
   font-size: 24px;
