@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
         cardsInSection.forEach((card, index) => {
           setTimeout(() => {
             card.classList.remove('card-hidden');
-          }, index * 150); // 150ms delay between each card
+          }, index * 50); // 150ms delay between each card
         });
       }
     });
