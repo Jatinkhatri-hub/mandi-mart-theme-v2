@@ -42,7 +42,8 @@
 }
 
 .product-card__badge-container {
-  padding
+  padding: 3px 1rem;
+  border-radius: ;
 }
 
 
