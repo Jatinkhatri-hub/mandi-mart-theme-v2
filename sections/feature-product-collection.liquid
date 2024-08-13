@@ -26,12 +26,12 @@
 
     <div class=" mySwiper swiper mySwiper-{{ section.id }}">
       <div class="swiper-wrapper">
-    <div class="collection__product-wrapper">
-      {% for product in section.settings.collection.products %}
-        {%  assign index8 = forloop.index0 |  modulo: 8 %}
-        
-        {% if index8 == 0 %}
-          <div class="swiper-slide">
+        {% for product in section.settings.collection.products %}
+          {%  assign index8 = forloop.index0 |  modulo: 8 %}
+          
+          {% if index8 == 0 %}
+            <div class="swiper-slide">
+            <div class="collection__product-wrapper">
         {% endif %}
         <a href="#" class="product-card__wrapper custom-card">
           <div class="product-card__img-wrapper">
@@ -57,6 +57,10 @@
             </div>
           </div>
         </a>
+        {% if index8 == 7 or forloop.last %}
+          </div>
+        </div>
+      {% endif %}
       {% endfor %}
     </div>
 
