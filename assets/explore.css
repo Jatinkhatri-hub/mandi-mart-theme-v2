@@ -73,6 +73,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        height: 165px;
     }
 
     .image-1 {
@@ -96,6 +97,8 @@
     .image-4 {
         grid-column: 1 / span 2;
         grid-row: 3 / span 1;
+        width: 340px;
+        height: 170px;
     }
     .explore-categories-container a {
     height: 23rem;
