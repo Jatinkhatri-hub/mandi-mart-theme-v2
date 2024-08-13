@@ -23,6 +23,66 @@
     },
     "review": {
       "type": "section-review",
+      "blocks": {
+        "review_carousle_crJnKC": {
+          "type": "review_carousle",
+          "settings": {
+            "user_name": "Name",
+            "user_description": "Lorem ipsum dolor sit amet consectetur. Mattis risus neque sed pulvinar in amet sed. Nibh et congue cursus malesuada morbi nunc. Donec mus vitae aliquam scelerisque"
+          }
+        },
+        "review_carousle_g3A7FE": {
+          "type": "review_carousle",
+          "settings": {
+            "user_name": "Name",
+            "user_description": "Lorem ipsum dolor sit amet consectetur. Mattis risus neque sed pulvinar in amet sed. Nibh et congue cursus malesuada morbi nunc. Donec mus vitae aliquam scelerisque"
+          }
+        },
+        "review_carousle_p7GjGM": {
+          "type": "review_carousle",
+          "settings": {
+            "user_name": "Name",
+            "user_description": "Lorem ipsum dolor sit amet consectetur. Mattis risus neque sed pulvinar in amet sed. Nibh et congue cursus malesuada morbi nunc. Donec mus vitae aliquam scelerisque"
+          }
+        },
+        "review_carousle_WxVXCA": {
+          "type": "review_carousle",
+          "settings": {
+            "user_name": "Name",
+            "user_description": "Lorem ipsum dolor sit amet consectetur. Mattis risus neque sed pulvinar in amet sed. Nibh et congue cursus malesuada morbi nunc. Donec mus vitae aliquam scelerisque"
+          }
+        },
+        "review_carousle_Rwp7Xw": {
+          "type": "review_carousle",
+          "settings": {
+            "user_name": "Name",
+            "user_description": "Lorem ipsum dolor sit amet consectetur. Mattis risus neque sed pulvinar in amet sed. Nibh et congue cursus malesuada morbi nunc. Donec mus vitae aliquam scelerisque"
+          }
+        },
+        "review_carousle_XwMUf9": {
+          "type": "review_carousle",
+          "settings": {
+            "user_name": "Name",
+            "user_description": "Lorem ipsum dolor sit amet consectetur. Mattis risus neque sed pulvinar in amet sed. Nibh et congue cursus malesuada morbi nunc. Donec mus vitae aliquam scelerisque"
+          }
+        },
+        "review_carousle_NK9mxD": {
+          "type": "review_carousle",
+          "settings": {
+            "user_name": "Name",
+            "user_description": "Lorem ipsum dolor sit amet consectetur. Mattis risus neque sed pulvinar in amet sed. Nibh et congue cursus malesuada morbi nunc. Donec mus vitae aliquam scelerisque"
+          }
+        }
+      },
+      "block_order": [
+        "review_carousle_crJnKC",
+        "review_carousle_g3A7FE",
+        "review_carousle_p7GjGM",
+        "review_carousle_WxVXCA",
+        "review_carousle_Rwp7Xw",
+        "review_carousle_XwMUf9",
+        "review_carousle_NK9mxD"
+      ],
       "settings": {
         "heading": "<p>Rich text<\/p>",
         "section_color_scheme": "",
