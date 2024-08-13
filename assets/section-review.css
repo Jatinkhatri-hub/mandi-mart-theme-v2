@@ -112,5 +112,7 @@
     margin: 0;
   }
 
-  .rev
+  .review__description {
+    font-size: 16px;
+  }
 }
