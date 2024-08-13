@@ -21,7 +21,7 @@
             {% capture link_key %}link_{{ i }}{% endcapture %}
             {% assign img = section.settings[img_key] %}
             {% assign link = section.settings[link_key] %}
-            <div class="BD-container">
+            <div class="BD-container custom-card">
                 <a href="{{ link }}" target="_blank">
                     <img src="{{ img | img_url: 'large' }}" alt="Brand Image">
                 </a>
