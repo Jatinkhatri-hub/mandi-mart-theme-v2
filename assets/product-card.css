@@ -4,7 +4,7 @@
 
 .product-collection__header {
   font-size: 24px;
-  color: rgb(var)
+  color: rgb(var(--color-foreground));
 }
 
 
