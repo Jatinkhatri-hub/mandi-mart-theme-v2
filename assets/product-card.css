@@ -6,7 +6,9 @@
   font-size: 24px;
 }
 
-.pr
+.product-collection__header h2 {
+  color: rgb(var(--color-foreground));
+}
 
 
 
