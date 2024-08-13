@@ -17,15 +17,34 @@
         "brand_information_rm7JcD": {
           "type": "brand_information",
           "settings": {
-            "show_social": true
+            "show_social": true,
+            "copyright_text_block": "",
+            "payment_img": "shopify:\/\/shop_images\/Group_110.png"
+          }
+        },
+        "footer_menu_4hwNUa": {
+          "type": "footer_menu",
+          "settings": {
+            "menu": "footer-menu-mm"
+          }
+        },
+        "disclaimer_K8Br7N": {
+          "type": "disclaimer",
+          "settings": {
+            "title": "Disclaimer",
+            "description": "<p>Products sold here are not intended to diagnose, prevent, treat or cure any disease. Please consult your health practitioner before use.<\/p>",
+            "background_color": "#074542",
+            "text_color": "#ffffff"
           }
         }
       },
       "block_order": [
-        "brand_information_rm7JcD"
+        "brand_information_rm7JcD",
+        "footer_menu_4hwNUa",
+        "disclaimer_K8Br7N"
       ],
       "settings": {
-        "color_scheme": "scheme-a95b59ad-3f4e-4585-8aec-fbc029173b49"
+        "color_scheme": "scheme-a47b3b35-8313-4992-a690-26f34c5f66f5"
       }
     }
   },
