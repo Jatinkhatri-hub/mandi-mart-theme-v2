@@ -321,7 +321,7 @@
   }
 
   .collection__pagination {
-    margin-bottom: 1rem;
+    margin-block: 2rem;
   }
   
 }
