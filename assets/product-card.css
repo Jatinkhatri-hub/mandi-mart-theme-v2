@@ -173,6 +173,8 @@
   }
   
   .product-card__rating span {
+    margin-left: 2rem;
+  }
 
   .product-card__title {
     text-align: start;
