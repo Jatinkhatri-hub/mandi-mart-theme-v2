@@ -1,3 +1,5 @@
+collection__
+
 .feature-collection__wrapper {
   display: flex;
   flex-direction: row;
@@ -42,7 +44,7 @@
   font-size: 20px;
   text-align: center;
   text-decoration: none;
-  mar
+  margin: 0;
 }
 
 
