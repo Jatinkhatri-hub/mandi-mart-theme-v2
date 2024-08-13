@@ -12,8 +12,9 @@
     "banner": {
       "type": "coll-section",
       "settings": {
-        "heading": "",
-        "subhead": ""
+        "heading": "Lorem ipsum dolor sit amet cons",
+        "subhead": "Lorem ipsum dolor sit amet consectetur. Lacus duis justo fames",
+        "image": "shopify:\/\/shop_images\/Screenshot_from_2024-08-13_17-23-19.png"
       }
     },
     "product-grid": {
