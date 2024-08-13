@@ -79,7 +79,7 @@
 }
 
 .review__description {
-  font-size: 15px;
+  font-size: 16px;
   text-align: start;
   color: black;
   margin: 0;
@@ -113,6 +113,6 @@
   }
 
   .review__description {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
