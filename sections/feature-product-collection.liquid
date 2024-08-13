@@ -65,9 +65,95 @@
         
       {% endfor %}
     </div>
-
+    <div class="swiper-pagination swiper-pagination-{{ section.id }}"></div>
   </div>
 </div>
+
+<style>
+
+.container__feature-collection {
+  position: relative
+}
+
+.btn-group-feature-collection {
+    display: flex;
+    position: absolute;
+    gap: 20px;
+    right: 20px;
+    top: 20px;
+    
+  }
+
+  .swiper-btn {
+    display: flex !important;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #008780;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    position: initial;
+  }
+
+  .swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 24px;
+    font-weight: 900;
+  }
+
+  .swiper-wrapper {
+    padding-bottom: 50px;
+
+  }
+  .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+    bottom: 0px !important;
+}
+  
+  /* .swiper-pagination {
+    top: 45px;
+  } */
+
+  /* .swiper-button-prev {
+    left: 0;
+  }
+
+  .swiper-button-next {
+    right: 0;
+  } */
+
+  .swiper-pagination-bullet-active {
+    background-color: #008780;
+  }
+
+  .swiper-button-disabled {
+    background-color: transparent;
+    border: 2px solid #008780;
+    color: black;
+  }
+
+  @media screen and (max-width: 769px) {
+    .btn-group-feature-collection {
+      bottom: 2rem;
+      top: auto;
+    }
+      
+    .swiper-btn {
+      width: 35px;
+      height: 35px;
+      
+    }
+
+    .swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 14px;
+    font-weight: 900;
+  }
+
+  .swiper-pagination {
+    text-align: start;
+  }
+  }
+
+</style>
 
 
 {% schema %}
