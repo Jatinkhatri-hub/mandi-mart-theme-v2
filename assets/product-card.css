@@ -35,13 +35,15 @@
   background: #F3F7F7;
 }
 
-.product-card__bages-container {
+.product-card__badges-container {
   position: absolute;
   top: 10px;
   left: 10px;
 }
 
-.product-card__bages-container
+.product-card__badge-container {
+  
+}
 
 
 .product-card__img-wrapper {
