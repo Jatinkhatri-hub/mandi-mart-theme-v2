@@ -212,12 +212,30 @@
           "settings": {
             "product_image": "shopify:\/\/shop_images\/Untitleddesign_97.png",
             "collection": "neurobiologix",
-            "button_text": "Button"
+            "button_text": "Explore Brand"
+          }
+        },
+        "brand_collection_BmtJHt": {
+          "type": "brand_collection",
+          "settings": {
+            "product_image": "shopify:\/\/shop_images\/image_9_1.png",
+            "collection": "metabolics",
+            "button_text": "Explore Brand"
+          }
+        },
+        "brand_collection_rKeng4": {
+          "type": "brand_collection",
+          "settings": {
+            "product_image": "shopify:\/\/shop_images\/image_9_2.png",
+            "collection": "probiotics",
+            "button_text": "Explore Brand"
           }
         }
       },
       "block_order": [
-        "brand_collection_xU34dt"
+        "brand_collection_xU34dt",
+        "brand_collection_BmtJHt",
+        "brand_collection_rKeng4"
       ],
       "settings": {
         "heading": "<p>Rich text<\/p>",
