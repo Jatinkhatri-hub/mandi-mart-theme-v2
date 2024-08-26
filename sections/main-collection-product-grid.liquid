@@ -351,16 +351,16 @@
       attachEventListeners();
     });
   });
+    filterMobileBtn.addEventListener('click', function() {
+      filterForm.classList.toggle('visible');
+      filterMobileBtn.classList.toggle('open');
+      console.log('filter btn clicked');
+    });
   }
 
   // Initial attachment of event listeners
   attachEventListeners();
 
-  filterMobileBtn.addEventListener('click', function() {
-    filterForm.classList.toggle('visible');
-    filterMobileBtn.classList.toggle('open');
-    console.log('filter btn clicked');
-  });
   });
   
   // const fiterForm = document.querySelector('.custom-filters-form');
