@@ -25,8 +25,9 @@
       "block_order": [
         "announcement-bar-0"
       ],
+      "disabled": true,
       "settings": {
-        "color_scheme": "scheme-a47b3b35-8313-4992-a690-26f34c5f66f5",
+        "color_scheme": "scheme-1",
         "show_line_separator": true,
         "show_social": false,
         "auto_rotate": false,
@@ -38,12 +39,7 @@
     "header": {
       "type": "header",
       "settings": {
-        "brand_logo": "shopify:\/\/shop_images\/image_15_3.png",
-        "logo_width": 100,
-        "navigation": "main-menu-1",
-        "mega_navbar": "mega-menu-new",
-        "color_scheme": "scheme-a12bea89-fd25-43a1-a703-9daafc5c9030",
-        "menu_color_scheme": ""
+        "color_scheme": "scheme-1"
       }
     }
   },
