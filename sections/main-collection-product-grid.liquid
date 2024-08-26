@@ -270,35 +270,61 @@
 <script>
 
   document.addEventListener('DOMContentLoaded', () => {
-  
+
   const filterForm = document.querySelector('.custom-filters-form');
-  const filterMobileBtn = document.querySelector('.collection__mobile-filter');
-
-  
-
+  let filterMobileBtn = document.querySelector('.collection__mobile-filter');
 
   Shopify.queryParams = {};
 
   // Preserve existing query parameters
   if (location.search.length) {
-  var params = location.search.substr(1).split('&');
+    var params = location.search.substr(1).split('&');
 
-  for (var i = 0; i < params.length; i++) {
-    var keyValue = params[i].split('=');
+    for (var i = 0; i < params.length; i++) {
+      var keyValue = params[i].split('=');
 
-    if (keyValue.length) {
-      Shopify.queryParams[decodeURIComponent(keyValue[0])] = decodeURIComponent(keyValue[1]);
+      if (keyValue.length) {
+        Shopify.queryParams[decodeURIComponent(keyValue[0])] = decodeURIComponent(keyValue[1]);
+      }
     }
-  }
   }
 
   function attachEventListeners() {
-  document.querySelectorAll('.hidden-radio-button').forEach(function(radioButton) {
-    radioButton.addEventListener('change', function() {
-      var paramName = this.name;
-      var value = this.value;
+    document.querySelectorAll('.hidden-radio-button').forEach(function(radioButton) {
+      radioButton.addEventListener('change', function() {
+        var paramName = this.name;
+        var value = this.value;
 
-      Shopify.queryParams[paramName] = value;
+        Shopify.queryParams[paramName] = value;
+        var newQueryString = new URLSearchParams(Shopify.queryParams).toString();
+        var newUrl = window.location.pathname + '?' + newQueryString;
+
+        history.replaceState(null, '', newUrl);
+
+        fetch(newUrl, {
+          headers: {
+            'X-Requested-With': 'XMLHttpRequest'
+          }
+        })
+        .then(function(response) {
+          return response.text();
+        })
+        .then(function(html) {
+          var newDocument = new DOMParser().parseFromString(html, 'text/html');
+          var newContent = newDocument.querySelector('.custom-collection-product-grid').innerHTML;
+
+          document.querySelector('.custom-collection-product-grid').innerHTML = newContent;
+
+          // Re-attach event listeners to the new content
+          attachEventListeners();
+        });
+      });
+    });
+
+    document.querySelector('#sort-by').addEventListener('change', function(e) {
+      var value = e.target.value;
+
+      Shopify.queryParams.sort_by = value;
       var newQueryString = new URLSearchParams(Shopify.queryParams).toString();
       var newUrl = window.location.pathname + '?' + newQueryString;
 
@@ -322,35 +348,9 @@
         attachEventListeners();
       });
     });
-  });
 
-  document.querySelector('#sort-by').addEventListener('change', function(e) {
-    var value = e.target.value;
-
-    Shopify.queryParams.sort_by = value;
-    var newQueryString = new URLSearchParams(Shopify.queryParams).toString();
-    var newUrl = window.location.pathname + '?' + newQueryString;
-
-    history.replaceState(null, '', newUrl);
-
-    fetch(newUrl, {
-      headers: {
-        'X-Requested-With': 'XMLHttpRequest'
-      }
-    })
-    .then(function(response) {
-      return response.text();
-    })
-    .then(function(html) {
-      var newDocument = new DOMParser().parseFromString(html, 'text/html');
-      var newContent = newDocument.querySelector('.custom-collection-product-grid').innerHTML;
-
-      document.querySelector('.custom-collection-product-grid').innerHTML = newContent;
-
-      // Re-attach event listeners to the new content
-      attachEventListeners();
-    });
-  });
+    // Re-attach the filter mobile button event listener
+    filterMobileBtn = document.querySelector('.collection__mobile-filter');
     filterMobileBtn.addEventListener('click', function() {
       filterForm.classList.toggle('visible');
       filterMobileBtn.classList.toggle('open');
@@ -360,8 +360,101 @@
 
   // Initial attachment of event listeners
   attachEventListeners();
+});
 
-  });
+  // document.addEventListener('DOMContentLoaded', () => {
+  
+  // const filterForm = document.querySelector('.custom-filters-form');
+  // const filterMobileBtn = document.querySelector('.collection__mobile-filter');
+
+  
+
+
+  // Shopify.queryParams = {};
+
+  // // Preserve existing query parameters
+  // if (location.search.length) {
+  // var params = location.search.substr(1).split('&');
+
+  // for (var i = 0; i < params.length; i++) {
+  //   var keyValue = params[i].split('=');
+
+  //   if (keyValue.length) {
+  //     Shopify.queryParams[decodeURIComponent(keyValue[0])] = decodeURIComponent(keyValue[1]);
+  //   }
+  // }
+  // }
+
+  // function attachEventListeners() {
+  // document.querySelectorAll('.hidden-radio-button').forEach(function(radioButton) {
+  //   radioButton.addEventListener('change', function() {
+  //     var paramName = this.name;
+  //     var value = this.value;
+
+  //     Shopify.queryParams[paramName] = value;
+  //     var newQueryString = new URLSearchParams(Shopify.queryParams).toString();
+  //     var newUrl = window.location.pathname + '?' + newQueryString;
+
+  //     history.replaceState(null, '', newUrl);
+
+  //     fetch(newUrl, {
+  //       headers: {
+  //         'X-Requested-With': 'XMLHttpRequest'
+  //       }
+  //     })
+  //     .then(function(response) {
+  //       return response.text();
+  //     })
+  //     .then(function(html) {
+  //       var newDocument = new DOMParser().parseFromString(html, 'text/html');
+  //       var newContent = newDocument.querySelector('.custom-collection-product-grid').innerHTML;
+
+  //       document.querySelector('.custom-collection-product-grid').innerHTML = newContent;
+
+  //       // Re-attach event listeners to the new content
+  //       attachEventListeners();
+  //     });
+  //   });
+  // });
+
+  // document.querySelector('#sort-by').addEventListener('change', function(e) {
+  //   var value = e.target.value;
+
+  //   Shopify.queryParams.sort_by = value;
+  //   var newQueryString = new URLSearchParams(Shopify.queryParams).toString();
+  //   var newUrl = window.location.pathname + '?' + newQueryString;
+
+  //   history.replaceState(null, '', newUrl);
+
+  //   fetch(newUrl, {
+  //     headers: {
+  //       'X-Requested-With': 'XMLHttpRequest'
+  //     }
+  //   })
+  //   .then(function(response) {
+  //     return response.text();
+  //   })
+  //   .then(function(html) {
+  //     var newDocument = new DOMParser().parseFromString(html, 'text/html');
+  //     var newContent = newDocument.querySelector('.custom-collection-product-grid').innerHTML;
+
+  //     document.querySelector('.custom-collection-product-grid').innerHTML = newContent;
+
+  //     // Re-attach event listeners to the new content
+  //     attachEventListeners();
+  //   });
+  // });
+  //   filterMobileBtn.addEventListener('click', function() {
+  //     filterForm.classList.toggle('visible');
+  //     filterMobileBtn.classList.toggle('open');
+  //     console.log('filter btn clicked');
+  //   });
+  // }
+
+  // // Initial attachment of event listeners
+  // attachEventListeners();
+
+  // });
   
   // const fiterForm = document.querySelector('.custom-filters-form');
   // const filterMobileBtn = document.querySelector('.collection__mobile-filter');
