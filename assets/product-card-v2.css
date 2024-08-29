@@ -44,7 +44,9 @@
   font-size: 1.2rem;
 }
 
-.product-card
+.product-card__title-v2  {
+  font-size: 14px;
+}
 
 
 
