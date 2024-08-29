@@ -29,6 +29,9 @@
 }
 
 .product-card__rating-star-v2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
 }
 
