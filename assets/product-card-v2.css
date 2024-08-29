@@ -72,7 +72,10 @@
   align-items: center;
 }
 
-.
+.product-card__atc-btn-v2 svg {
+  width: 14px;
+  height: 14px;
+}
 
 
 
