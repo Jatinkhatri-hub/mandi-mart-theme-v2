@@ -17,6 +17,10 @@
 }
 
 .product-card__img-v2 {
-  width: ;
+  width: 155px;
+  height: 125px;
+  object-fit: cover;
 }
+
+
 
