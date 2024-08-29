@@ -2,20 +2,5 @@
   <div class="product-card__img-wrapper-v2">
     <img src="{{ product.featured_image |  img_url: 'medium' }}" class="product-card__img-v2">
   </div>
-  <div class="product-card__info-v2">
-    <div class="product-card__rating-v2">
-      <div class="product-card__rating-star-v2">
-        {% render 'icon-star' %}
-        {% render 'icon-star' %}
-        {% render 'icon-star' %}
-        {% render 'icon-star' %}
-        {% render 'icon-star' %}
-      </div>
-      <span class="poppins-regular">100 Reviews</span>
-    </div>
-    <h6 class="product-card__title-v2 poppins-semibold">{{ product.title }}</h6>
-    <span class="product-card__vendor-v2 poppins-regular">{{ product.vendor }}</span>
-    <span>{{ product.price }}</span>
-    <a class="product-card__atc-btn-v2" data-variant-id="{{ product.variants.first.id }}">{% render 'icon-bag-v2' %}</a>
-  </div>
+  
 </a>
