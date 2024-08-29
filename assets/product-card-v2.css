@@ -4,6 +4,7 @@
   width: 170px;
   height: 290px;
   border: .6px solid #C1C1C1;
+  align-items: center;
 }
 
-.product
+.product-card__img-wrapper-v
