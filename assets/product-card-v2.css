@@ -63,7 +63,9 @@
 .product-card__atc-btn-v2 {
   width: 20px;
   height: 20px;
-  border: ;
+  border: 1px solid #008780;
+  background-color: #008780;
+  o
 }
 
 
