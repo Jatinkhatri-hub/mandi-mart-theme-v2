@@ -11,5 +11,7 @@
   display: flex;
   width: 155px;
   height: 125px;
-  
+  align-items: center;
+  justify-content: center;
 }
+
