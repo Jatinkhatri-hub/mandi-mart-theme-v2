@@ -83,8 +83,9 @@
         "collection_card_XMUYQq": {
           "type": "collection_card",
           "settings": {
+            "collection_img": "shopify:\/\/shop_images\/Ellipse_219.png",
             "card_background": "#3AAFA9",
-            "collection": ""
+            "collection": "new-products"
           }
         }
       },
@@ -94,7 +95,7 @@
         "collection_card_XMUYQq"
       ],
       "settings": {
-        "heading": "Heading",
+        "heading": "",
         "section_color_scheme": "",
         "color_scheme": "",
         "padding_top": 36,
