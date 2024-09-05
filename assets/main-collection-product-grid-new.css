@@ -240,6 +240,12 @@
   color: #fff;
 }
 
+product-card__atc-btn-v2 svg {
+  width: 20px;
+  height: 20px;
+  background: #008780;
+}
+
 @media screen and (max-width: 896px) {
 
   .custom-filters {
