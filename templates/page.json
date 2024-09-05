@@ -1,1 +1,115 @@
-{"sections":{"main":{"type":"main-page","settings":{"padding_top":28,"padding_bottom":28}}},"order":["main"]}
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "brand_directory_BcWLGN": {
+      "type": "brand-directory",
+      "blocks": {
+        "brand_hYxVnh": {
+          "type": "brand",
+          "settings": {
+            "collection": "algonot"
+          }
+        },
+        "brand_RYC7pQ": {
+          "type": "brand",
+          "settings": {
+            "collection": "anrc-protocol"
+          }
+        },
+        "brand_4qz39w": {
+          "type": "brand",
+          "settings": {
+            "collection": "custom-probiotics"
+          }
+        },
+        "brand_XFwgYQ": {
+          "type": "brand",
+          "settings": {
+            "collection": "biom"
+          }
+        },
+        "brand_f368N7": {
+          "type": "brand",
+          "settings": {
+            "collection": "lee-silsby-enhansa"
+          }
+        },
+        "brand_PxBPAj": {
+          "type": "brand",
+          "settings": {
+            "collection": "living-supplements"
+          }
+        },
+        "brand_VB6fm3": {
+          "type": "brand",
+          "settings": {
+            "collection": "meraki-medicinal"
+          }
+        },
+        "brand_nqGfpC": {
+          "type": "brand",
+          "settings": {
+            "collection": "metabolics"
+          }
+        },
+        "brand_4HpgD4": {
+          "type": "brand",
+          "settings": {
+            "collection": "new-beginnings"
+          }
+        },
+        "brand_emmtix": {
+          "type": "brand",
+          "settings": {
+            "collection": "ramp-health"
+          }
+        },
+        "brand_8ztr9T": {
+          "type": "brand",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "brand_hYxVnh",
+        "brand_RYC7pQ",
+        "brand_4qz39w",
+        "brand_XFwgYQ",
+        "brand_f368N7",
+        "brand_PxBPAj",
+        "brand_VB6fm3",
+        "brand_nqGfpC",
+        "brand_4HpgD4",
+        "brand_emmtix",
+        "brand_8ztr9T"
+      ],
+      "settings": {
+        "heading": "<p>Heading<\/p>",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "brand_directory_BcWLGN"
+  ]
+}
