@@ -37,6 +37,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 1.5px;
 }
 
 .product-card__rating-star-v2 svg {
