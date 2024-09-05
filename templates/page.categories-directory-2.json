@@ -154,7 +154,6 @@
         },
         "brand_at4QYd": {
           "type": "brand",
-          "disabled": true,
           "settings": {
             "collection": "aspire-nutrition"
           }
