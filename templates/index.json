@@ -56,7 +56,7 @@
         "products_per_slide_desktop": 4,
         "section_color_scheme": "scheme-6940cb94-c89f-4f72-9e98-10b956f1bed6",
         "collection": "anrc-protocol",
-        "color_scheme": "",
+        "color_scheme": "scheme-6940cb94-c89f-4f72-9e98-10b956f1bed6",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -110,11 +110,66 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "section_review_UMij8M": {
+      "type": "section-review",
+      "blocks": {
+        "review_carousle_EEFHhP": {
+          "type": "review_carousle",
+          "settings": {
+            "user_name": "Name",
+            "user_description": "Lorem ipsum dolor sit amet consectetur. Mattis risus neque sed pulvinar in amet sed. Nibh et congue cursus malesuada morbi nunc. Donec mus vitae aliquam scelerisque"
+          }
+        },
+        "review_carousle_UTY3wA": {
+          "type": "review_carousle",
+          "settings": {
+            "user_name": "Name",
+            "user_description": "Lorem ipsum dolor sit amet consectetur. Mattis risus neque sed pulvinar in amet sed. Nibh et congue cursus malesuada morbi nunc. Donec mus vitae aliquam scelerisque"
+          }
+        },
+        "review_carousle_tpKhMt": {
+          "type": "review_carousle",
+          "settings": {
+            "user_name": "Name",
+            "user_description": "Lorem ipsum dolor sit amet consectetur. Mattis risus neque sed pulvinar in amet sed. Nibh et congue cursus malesuada morbi nunc. Donec mus vitae aliquam scelerisque"
+          }
+        },
+        "review_carousle_wi49bP": {
+          "type": "review_carousle",
+          "settings": {
+            "user_name": "Name",
+            "user_description": "Lorem ipsum dolor sit amet consectetur. Mattis risus neque sed pulvinar in amet sed. Nibh et congue cursus malesuada morbi nunc. Donec mus vitae aliquam scelerisque"
+          }
+        },
+        "review_carousle_QkRFjV": {
+          "type": "review_carousle",
+          "settings": {
+            "user_name": "Name",
+            "user_description": "Lorem ipsum dolor sit amet consectetur. Mattis risus neque sed pulvinar in amet sed. Nibh et congue cursus malesuada morbi nunc. Donec mus vitae aliquam scelerisque"
+          }
+        }
+      },
+      "block_order": [
+        "review_carousle_EEFHhP",
+        "review_carousle_UTY3wA",
+        "review_carousle_tpKhMt",
+        "review_carousle_wi49bP",
+        "review_carousle_QkRFjV"
+      ],
+      "settings": {
+        "heading": "<p>Rich text<\/p>",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "hero_carousel_XFifLk",
     "feature_product_collection_FNdwGC",
-    "featured_collection_v2_xbrdmy"
+    "featured_collection_v2_xbrdmy",
+    "section_review_UMij8M"
   ]
 }
