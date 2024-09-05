@@ -24,6 +24,9 @@
 
 .product-card__info-v2 {
   padding: 6px;
+  display: flex;
+  flex-direction: column;
+  
 }
 
 .product-card__img-wrapper-v2 {
