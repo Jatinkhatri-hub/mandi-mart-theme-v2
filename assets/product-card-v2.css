@@ -121,7 +121,10 @@
     height: 255px;
   }
 
-  .produc
+  .product-card__img-v2 {
+    width: 255px;
+    height: 255px;
+  }
 }
 
 
