@@ -190,10 +190,26 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "bd_explore_KAazk9": {
+      "type": "BD-explore",
+      "settings": {
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "image_1": "shopify:\/\/shop_images\/Group_1000007081_6.png",
+        "link_1": "shopify:\/\/collections\/mutli-vitamins-for-asd",
+        "image_2": "shopify:\/\/shop_images\/Screenshot_from_2024-08-13_17-18-18.png",
+        "link_2": "shopify:\/\/collections\/clearance",
+        "image_3": "shopify:\/\/shop_images\/Screenshot_from_2024-08-13_17-18-56.png",
+        "link_3": "shopify:\/\/collections\/new-products"
+      }
     }
   },
   "order": [
     "main",
-    "brand_directory_BcWLGN"
+    "brand_directory_BcWLGN",
+    "bd_explore_KAazk9"
   ]
 }
