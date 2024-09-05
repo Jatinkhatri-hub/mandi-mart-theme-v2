@@ -50,7 +50,6 @@
     },
     "featured_collection": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
@@ -76,24 +75,10 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
-    },
-    "feature_product_collection_gt6TWx": {
-      "type": "feature-product-collection",
-      "settings": {
-        "heading": "Heading",
-        "products_per_slide_mobile": 2,
-        "products_per_slide_desktop": 4,
-        "section_color_scheme": "",
-        "collection": "algonot",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection",
-    "feature_product_collection_gt6TWx"
+    "featured_collection"
   ]
 }
