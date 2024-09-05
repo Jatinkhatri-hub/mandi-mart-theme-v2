@@ -8,6 +8,7 @@
   text-decoration: none;
   position: relative;
   background-color: white;
+  cursor: pointer;
 }
 
 .product-card__wrapper-v2:hover {
