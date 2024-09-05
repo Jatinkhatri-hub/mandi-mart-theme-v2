@@ -17,12 +17,12 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/yellow-winner-podium-pedestal-showcase-product-space-presentation-background-3d-rendering_copy_3_466d1b3a-ada9-4e38-81e6-8da3eeb41cbe.png",
             "alt": "Slide",
-            "carousel_heading": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-            "carousel_sub_heading": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, architecto. Atque voluptate delectus deleniti labore laborum?",
-            "carousel_list_item_1": "Lorem ipsum dolor",
-            "carousel_list_item_2": "Lorem ipsum dolor",
-            "carousel_list_item_3": "Lorem ipsum dolor",
-            "carousel_button_text": "CTA TEXT",
+            "carousel_heading": "Transform Your Health With Premium Supplements",
+            "carousel_sub_heading": "Discover our range of curated health supplements by trusted brands!",
+            "carousel_list_item_1": "Wide range of brands and categories",
+            "carousel_list_item_2": "Premium supplements trusted by experts",
+            "carousel_list_item_3": "Best prices and fast delivery",
+            "carousel_button_text": "Browse All Supplements",
             "carousel_alignment": "left"
           }
         },
