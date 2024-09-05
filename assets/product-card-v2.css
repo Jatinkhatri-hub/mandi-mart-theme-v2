@@ -9,6 +9,10 @@
   position: relative;
 }
 
+.product-card__wrapper-v2 {
+  
+}
+
 .product-card__badges-container {
   position: absolute;
   top: 10px;
