@@ -87,12 +87,21 @@
             "card_background": "#3AAFA9",
             "collection": "new-products"
           }
+        },
+        "collection_card_wnGVDx": {
+          "type": "collection_card",
+          "settings": {
+            "collection_img": "shopify:\/\/shop_images\/Group_1000007091_1.png",
+            "card_background": "#3AAFA9",
+            "collection": "our-top-brands"
+          }
         }
       },
       "block_order": [
         "collection_card_UWbT8T",
         "collection_card_ceVWRm",
-        "collection_card_XMUYQq"
+        "collection_card_XMUYQq",
+        "collection_card_wnGVDx"
       ],
       "settings": {
         "heading": "",
