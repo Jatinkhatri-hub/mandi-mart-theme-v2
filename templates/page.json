@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -184,7 +185,7 @@
         "brand_at4QYd"
       ],
       "settings": {
-        "heading": "<p>Heading<\/p>",
+        "heading": "<p>All Brands<\/p>",
         "section_color_scheme": "",
         "color_scheme": "",
         "padding_top": 36,
