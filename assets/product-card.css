@@ -1,4 +1,16 @@
-c
+.collection-container {
+  position: relative;
+}
+
+.product-collection__header {
+  font-size: 24px;
+}
+
+.product-collection__header h2 {
+  color: rgb(var(--color-foreground)) !important;
+}
+
+
 
 
 .collection__product-wrapper {
