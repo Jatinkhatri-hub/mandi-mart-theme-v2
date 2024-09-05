@@ -82,7 +82,79 @@
         "brand_8ztr9T": {
           "type": "brand",
           "settings": {
-            "collection": ""
+            "collection": "simple-spectrum"
+          }
+        },
+        "brand_fnRwCN": {
+          "type": "brand",
+          "settings": {
+            "collection": "spectrum-awakening"
+          }
+        },
+        "brand_Xtqxdf": {
+          "type": "brand",
+          "settings": {
+            "collection": "everything-spectrum"
+          }
+        },
+        "brand_GfbTNG": {
+          "type": "brand",
+          "settings": {
+            "collection": "houstom-enzymes"
+          }
+        },
+        "brand_RdzPyM": {
+          "type": "brand",
+          "settings": {
+            "collection": "premium-select-naturals"
+          }
+        },
+        "brand_WK8Ht4": {
+          "type": "brand",
+          "settings": {
+            "collection": "kirkman-labs"
+          }
+        },
+        "brand_bzMifh": {
+          "type": "brand",
+          "settings": {
+            "collection": "nature-provides"
+          }
+        },
+        "brand_GQPUXq": {
+          "type": "brand",
+          "settings": {
+            "collection": "neuroneeds"
+          }
+        },
+        "brand_zAPA7Q": {
+          "type": "brand",
+          "settings": {
+            "collection": "neural-balance"
+          }
+        },
+        "brand_YtFpRa": {
+          "type": "brand",
+          "settings": {
+            "collection": "neurobiologix"
+          }
+        },
+        "brand_BbQTbE": {
+          "type": "brand",
+          "settings": {
+            "collection": "throne"
+          }
+        },
+        "brand_Tyiaz3": {
+          "type": "brand",
+          "settings": {
+            "collection": "vanman"
+          }
+        },
+        "brand_at4QYd": {
+          "type": "brand",
+          "settings": {
+            "collection": "aspire-nutrition"
           }
         }
       },
@@ -97,7 +169,19 @@
         "brand_nqGfpC",
         "brand_4HpgD4",
         "brand_emmtix",
-        "brand_8ztr9T"
+        "brand_8ztr9T",
+        "brand_fnRwCN",
+        "brand_Xtqxdf",
+        "brand_GfbTNG",
+        "brand_RdzPyM",
+        "brand_WK8Ht4",
+        "brand_bzMifh",
+        "brand_GQPUXq",
+        "brand_zAPA7Q",
+        "brand_YtFpRa",
+        "brand_BbQTbE",
+        "brand_Tyiaz3",
+        "brand_at4QYd"
       ],
       "settings": {
         "heading": "<p>Heading<\/p>",
