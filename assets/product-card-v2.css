@@ -112,7 +112,9 @@
 
 @media screen and (min-width: 789px) {
   .product-card__wrapper-v2 {
-    width: ;
+    width: 280px;
+    height: 470px;
+    
   }
 }
 
