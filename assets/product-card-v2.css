@@ -19,12 +19,13 @@
   height: 125px;
   align-items: center;
   justify-content: center;
+  padding-top: ;
 }
 
 .product-card__img-v2 {
   width: 155px;
   height: 125px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .product-card__rating-v2 {
