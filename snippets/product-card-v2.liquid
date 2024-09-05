@@ -1,4 +1,25 @@
 <a href="#" class="product-card__wrapper-v2 custom-card">
+  <div class="product-card__badges-container">
+    {% assign original_price = product.compare_at_price %}
+    {% assign current_price = product.price %}
+
+    {% if original_price > current_price %}
+      {% assign savings = original_price | minus: current_price %}
+      {% assign savings_percentage = savings | times: 100 | divided_by: original_price | abs %}
+      {% assign savings_percentage_rounded = savings_percentage | round %}
+
+      <div class="product-card__badge-container poppins-semibold" style="background-color: #FF6B00; color: white;">
+        <span class="poppins-semibold">SALE</span>
+        {{ savings_percentage_rounded }}%
+      </div>
+    {% endif %}
+
+    {% if product.metafields.custom.product_card_badge_text %}
+      <div class="product-card__badge-container poppins-semibold" style="background-color: {{ product.metafields.custom.product_card_badge_color.value |  color_to_hex }}; color: white; ">
+        {{ product.metafields.custom.product_card_badge_text }}
+      </div>
+    {% endif %}
+  </div>
   <div class="product-card__img-wrapper-v2">
     <img src="{{ product.featured_image |  img_url: 'medium' }}" class="product-card__img-v2">
   </div>
