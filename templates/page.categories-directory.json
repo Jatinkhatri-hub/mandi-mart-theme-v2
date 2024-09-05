@@ -23,139 +23,145 @@
         "brand_hYxVnh": {
           "type": "brand",
           "settings": {
-            "collection": "algonot"
+            "collection": "amino-acids"
           }
         },
         "brand_RYC7pQ": {
           "type": "brand",
           "settings": {
-            "collection": "anrc-protocol"
+            "collection": "anrc-protocol-1"
           }
         },
         "brand_4qz39w": {
           "type": "brand",
           "settings": {
-            "collection": "custom-probiotics"
+            "collection": "b12"
           }
         },
         "brand_XFwgYQ": {
           "type": "brand",
           "settings": {
-            "collection": "biom"
+            "collection": "books"
           }
         },
         "brand_f368N7": {
           "type": "brand",
           "settings": {
-            "collection": "lee-silsby-enhansa"
+            "collection": "clearance-1"
           }
         },
         "brand_PxBPAj": {
           "type": "brand",
           "settings": {
-            "collection": "living-supplements"
+            "collection": "detoxification-support"
           }
         },
         "brand_VB6fm3": {
           "type": "brand",
           "settings": {
-            "collection": "meraki-medicinal"
+            "collection": "digestive-enzymes"
           }
         },
         "brand_nqGfpC": {
           "type": "brand",
           "settings": {
-            "collection": "metabolics"
+            "collection": "dmg-tmg"
           }
         },
         "brand_4HpgD4": {
           "type": "brand",
           "settings": {
-            "collection": "new-beginnings"
+            "collection": "efas-oils"
           }
         },
         "brand_emmtix": {
           "type": "brand",
           "settings": {
-            "collection": "ramp-health"
+            "collection": "gut-support"
           }
         },
         "brand_8ztr9T": {
           "type": "brand",
           "settings": {
-            "collection": "simple-spectrum"
+            "collection": "immune-support"
           }
         },
         "brand_fnRwCN": {
           "type": "brand",
           "settings": {
-            "collection": "spectrum-awakening"
+            "collection": "keto-kerri-protocol"
           }
         },
         "brand_Xtqxdf": {
           "type": "brand",
           "settings": {
-            "collection": "everything-spectrum"
+            "collection": "lead-test-kits"
           }
         },
         "brand_GfbTNG": {
           "type": "brand",
           "settings": {
-            "collection": "houstom-enzymes"
+            "collection": "living-network-ala-dmsa"
           }
         },
         "brand_RdzPyM": {
           "type": "brand",
           "settings": {
-            "collection": "premium-select-naturals"
+            "collection": "live-support"
           }
         },
         "brand_WK8Ht4": {
           "type": "brand",
           "settings": {
-            "collection": "kirkman-labs"
+            "collection": "minerals"
           }
         },
         "brand_bzMifh": {
           "type": "brand",
           "settings": {
-            "collection": "nature-provides"
+            "collection": "mito-support"
+          }
+        },
+        "brand_qD9BYA": {
+          "type": "brand",
+          "settings": {
+            "collection": "mutli-vitamins-for-asd"
           }
         },
         "brand_GQPUXq": {
           "type": "brand",
           "settings": {
-            "collection": "neuroneeds"
+            "collection": "mood-support"
+          }
+        },
+        "brand_4qwDyK": {
+          "type": "brand",
+          "settings": {
+            "collection": "probiotics"
           }
         },
         "brand_zAPA7Q": {
           "type": "brand",
           "settings": {
-            "collection": "neural-balance"
+            "collection": "speciality-products"
           }
         },
         "brand_YtFpRa": {
           "type": "brand",
           "settings": {
-            "collection": "neurobiologix"
+            "collection": "toiletries"
           }
         },
         "brand_BbQTbE": {
           "type": "brand",
           "settings": {
-            "collection": "throne"
+            "collection": "transdermal"
           }
         },
         "brand_Tyiaz3": {
           "type": "brand",
           "settings": {
-            "collection": "vanman"
-          }
-        },
-        "brand_at4QYd": {
-          "type": "brand",
-          "settings": {
-            "collection": "aspire-nutrition"
+            "collection": "vitamins"
           }
         }
       },
@@ -177,12 +183,13 @@
         "brand_RdzPyM",
         "brand_WK8Ht4",
         "brand_bzMifh",
+        "brand_qD9BYA",
         "brand_GQPUXq",
+        "brand_4qwDyK",
         "brand_zAPA7Q",
         "brand_YtFpRa",
         "brand_BbQTbE",
-        "brand_Tyiaz3",
-        "brand_at4QYd"
+        "brand_Tyiaz3"
       ],
       "settings": {
         "heading": "<p>All Brands<\/p>",
