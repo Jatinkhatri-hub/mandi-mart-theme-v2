@@ -9,7 +9,9 @@
   position: relative;
 }
 
-.product-card__info-v
+.product-card__info-v2 {
+  padding: 6px;
+}
 
 .product-card__img-wrapper-v2 {
   display: flex;
