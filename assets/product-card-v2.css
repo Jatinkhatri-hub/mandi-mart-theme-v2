@@ -31,7 +31,7 @@
   display: flex;
   align-items: center;
   justify-content: start;
-  
+  gap: 10px;
 }
 
 .product-card__rating-star-v2 {
@@ -57,6 +57,7 @@
   color: #364241;
   text-align: start;
   margin: 0;
+  line-height: normal;
 }
 
 .product-card__vendor-v2 {
