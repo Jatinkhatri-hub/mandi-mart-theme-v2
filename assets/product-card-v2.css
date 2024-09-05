@@ -143,7 +143,9 @@
     font-size: 14px;
   }
 
-  .product-card__price-v2 
+  .product-card__price-v2 {
+    font-size: 15px;
+  }
 
 
 
