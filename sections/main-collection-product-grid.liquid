@@ -227,7 +227,7 @@
   {% paginate collection.products by 16 %}
     <div class="collection__product-wrapper custom-section custom-collection-product-grid collection__filter">
       {% for product in collection.products %}
-        {% render 'product-card'
+        {% render 'product-card-v2'
           , product: product
         %}
       {% endfor %}
