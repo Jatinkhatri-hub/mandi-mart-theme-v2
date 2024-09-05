@@ -215,6 +215,47 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "brand_collection_G4Yttb": {
+      "type": "brand-collection",
+      "blocks": {
+        "brand_collection_6UnA84": {
+          "type": "brand_collection",
+          "settings": {
+            "product_image": "shopify:\/\/shop_images\/Untitleddesign_97.png",
+            "collection": "neurobiologix",
+            "button_text": "Explore Brand"
+          }
+        },
+        "brand_collection_fHDQfN": {
+          "type": "brand_collection",
+          "settings": {
+            "product_image": "shopify:\/\/shop_images\/image_9_1.png",
+            "collection": "metabolics",
+            "button_text": "Explore Brand"
+          }
+        },
+        "brand_collection_pUwPqY": {
+          "type": "brand_collection",
+          "settings": {
+            "product_image": "shopify:\/\/shop_images\/image_9_2.png",
+            "collection": "probiotics",
+            "button_text": "Explore Brand"
+          }
+        }
+      },
+      "block_order": [
+        "brand_collection_6UnA84",
+        "brand_collection_fHDQfN",
+        "brand_collection_pUwPqY"
+      ],
+      "settings": {
+        "heading": "<p>Explore Our Top Brands<\/p>",
+        "section_color_scheme": "scheme-73da2105-31f1-46f6-bd3a-71060749aa24",
+        "color_scheme": "scheme-73da2105-31f1-46f6-bd3a-71060749aa24",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -223,6 +264,7 @@
     "featured_collection_v2_xbrdmy",
     "section_review_UMij8M",
     "image_with_text_v2_ixiN7B",
-    "feature_product_collection_fcn3Nn"
+    "feature_product_collection_fcn3Nn",
+    "brand_collection_G4Yttb"
   ]
 }
