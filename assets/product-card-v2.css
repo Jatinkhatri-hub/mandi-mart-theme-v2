@@ -1,11 +1,12 @@
 .product-card__wrapper-v2 {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 170px;
   height: 290px;
   border: .6px solid #C1C1C1;
   align-items: center;
   text-decoration: none;
+  flex-
 }
 
 .product-card__img-wrapper-v2 {
