@@ -3,5 +3,8 @@
 .collection__product-wrapper {
   display: flex;
   justify-content: center;
-  a
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  f
 }
