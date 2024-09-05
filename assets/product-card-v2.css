@@ -31,6 +31,7 @@
   display: flex;
   align-items: center;
   justify-content: start;
+  
 }
 
 .product-card__rating-star-v2 {
@@ -48,6 +49,7 @@
 .product-card__rating-v2 span {
   color: #364241;
   font-size: 1.2rem;
+  line-height: normal;
 }
 
 .product-card__title-v2  {
