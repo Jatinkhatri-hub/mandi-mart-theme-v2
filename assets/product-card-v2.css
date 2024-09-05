@@ -73,6 +73,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  bottom: 0;
+  r;
 }
 
 .product-card__atc-btn-v2 svg {
