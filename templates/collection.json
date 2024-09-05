@@ -12,6 +12,9 @@
     "banner": {
       "type": "coll-section",
       "settings": {
+        "heading": "Lorem ipsum dolor sit amet cons",
+        "subhead": "Lorem ipsum dolor sit amet consectetur. Lacus duis justo fames",
+        "image": "shopify:\/\/shop_images\/Screenshot_from_2024-08-13_17-23-19.png"
       }
     },
     "product-grid": {
@@ -21,12 +24,75 @@
     },
     "review": {
       "type": "section-review",
+      "blocks": {
+        "review_carousle_qiFgje": {
+          "type": "review_carousle",
+          "settings": {
+            "user_name": "Name",
+            "user_description": "Lorem ipsum dolor sit amet consectetur. Mattis risus neque sed pulvinar in amet sed. Nibh et congue cursus malesuada morbi nunc. Donec mus vitae aliquam scelerisque"
+          }
+        },
+        "review_carousle_nph63F": {
+          "type": "review_carousle",
+          "settings": {
+            "user_name": "Name",
+            "user_description": "Lorem ipsum dolor sit amet consectetur. Mattis risus neque sed pulvinar in amet sed. Nibh et congue cursus malesuada morbi nunc. Donec mus vitae aliquam scelerisque"
+          }
+        },
+        "review_carousle_bDcgaM": {
+          "type": "review_carousle",
+          "settings": {
+            "user_name": "Name",
+            "user_description": "Lorem ipsum dolor sit amet consectetur. Mattis risus neque sed pulvinar in amet sed. Nibh et congue cursus malesuada morbi nunc. Donec mus vitae aliquam scelerisque"
+          }
+        },
+        "review_carousle_hLEVar": {
+          "type": "review_carousle",
+          "settings": {
+            "user_name": "Name",
+            "user_description": "Lorem ipsum dolor sit amet consectetur. Mattis risus neque sed pulvinar in amet sed. Nibh et congue cursus malesuada morbi nunc. Donec mus vitae aliquam scelerisque"
+          }
+        },
+        "review_carousle_X4XMYU": {
+          "type": "review_carousle",
+          "settings": {
+            "user_name": "Name",
+            "user_description": "Lorem ipsum dolor sit amet consectetur. Mattis risus neque sed pulvinar in amet sed. Nibh et congue cursus malesuada morbi nunc. Donec mus vitae aliquam scelerisque"
+          }
+        }
+      },
+      "block_order": [
+        "review_carousle_qiFgje",
+        "review_carousle_nph63F",
+        "review_carousle_bDcgaM",
+        "review_carousle_hLEVar",
+        "review_carousle_X4XMYU"
+      ],
       "settings": {
+        "heading": "<p>Rich text<\/p>",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "explore-categories": {
       "type": "explore",
       "settings": {
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_1": "shopify:\/\/shop_images\/Screenshot_from_2024-08-13_17-17-24.png",
+        "link_1": "shopify:\/\/collections\/best-sellers",
+        "image_2": "shopify:\/\/shop_images\/Screenshot_from_2024-08-13_17-18-18.png",
+        "link_2": "shopify:\/\/collections\/new-products",
+        "image_3": "shopify:\/\/shop_images\/Screenshot_from_2024-08-13_17-18-56.png",
+        "link_3": "shopify:\/\/collections\/new-products",
+        "image_4": "shopify:\/\/shop_images\/Screenshot_from_2024-08-13_17-17-48.png",
+        "link_4": "shopify:\/\/collections\/our-top-brands",
+        "h4_text": "Explore all categories",
+        "h4_link": "shopify:\/\/pages\/categories-directory",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
