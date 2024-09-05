@@ -110,7 +110,7 @@
   background: #008780;
 }
 
-@media screen and () {
+@media screen and (min-width: 789px) {
   
 }
 
