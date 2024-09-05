@@ -6,6 +6,7 @@
   border: .6px solid #C1C1C1;
   align-items: center;
   text-decoration: none;
+  position: relative;
 }
 
 .product-card__img-wrapper-v2 {
