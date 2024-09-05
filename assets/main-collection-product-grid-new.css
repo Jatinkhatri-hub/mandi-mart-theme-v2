@@ -246,6 +246,21 @@ product-card__atc-btn-v2 svg {
   background: #008780;
 }
 
+.product-card__atc-btn-v2 {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #008780;
+  background-color: #008780;
+  outline: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
 @media screen and (max-width: 896px) {
 
   .custom-filters {
