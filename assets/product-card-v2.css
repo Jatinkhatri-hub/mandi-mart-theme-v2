@@ -9,6 +9,19 @@
   position: relative;
 }
 
+.product-card__badges-container {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.product-card__badge-container {
+  padding: 3px 1rem;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+
 .product-card__info-v2 {
   padding: 6px;
 }
