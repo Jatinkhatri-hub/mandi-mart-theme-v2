@@ -26,14 +26,18 @@
                     </div>
                     <div class="big-div-content">
                         <h4>{{ block.settings.big_heading }}</h4>
+                        <a href="{{ block.settings.big_div_button_link }}">
                         <button class="big-div-btn explore-btn">{{ block.settings.big_button_text }}</button>
+                        </a>
                     </div>
                 </div>
             {% elsif block.type == 'small-div' %}
                 <div class="small-div">
                     <div class="small-div-content">
                         <h4>{{ block.settings.small_heading }}</h4>
+                        <a href="{{ block.settings.small_div_button_link }}">
                         <button class="big-div-btn explore-btn">{{ block.settings.small_button_text }}</button>
+                        </a>
                     </div>
                     <div class="small-div-img" style="width: {{ block.settings.small_img_width }}px;">
                         <img src="{{ block.settings.small_img | image_url }}" alt="Small Div Image" />
@@ -417,7 +421,12 @@
                     "id": "big_button_text",
                     "label": "Big Div Button Text",
                     "default": "Explore Now"
-                }
+                },
+                {
+  "type": "url",
+  "id": "big_div_button_link",
+  "label": " big div Button Link"
+}
             ]
         },
         {
@@ -449,7 +458,12 @@
                     "id": "small_button_text",
                     "label": "Small Div Button Text",
                     "default": "Explore Now"
-                }
+                },
+                {
+  "type": "url",
+  "id": "small_div_button_link",
+  "label": " small div Button Link"
+}
             ]
         }
     ],
