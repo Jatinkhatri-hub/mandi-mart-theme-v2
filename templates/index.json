@@ -294,6 +294,7 @@
     },
     "explore_VwPVRU": {
       "type": "explore",
+      "disabled": true,
       "settings": {
         "section_color_scheme": "",
         "color_scheme": "scheme-6940cb94-c89f-4f72-9e98-10b956f1bed6",
@@ -309,6 +310,34 @@
         "h4_link": "shopify:\/\/pages\/categories-directory",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "explore_1_VcCQc7": {
+      "type": "explore-1",
+      "blocks": {
+        "big_div_m8rEB4": {
+          "type": "big-div",
+          "settings": {
+            "big_img": "shopify:\/\/shop_images\/image_20_1.png",
+            "big_img_width": 360,
+            "big_heading": "AMINO ACID",
+            "big_button_text": "Explore Now"
+          }
+        }
+      },
+      "block_order": [
+        "big_div_m8rEB4"
+      ],
+      "settings": {
+        "h3_text": "Explore Our Categories",
+        "h3_color": "#074542",
+        "h5_text": "Explore all categories",
+        "h5_color": "#074542",
+        "h5_link": "",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_color_scheme": "",
+        "color_scheme": ""
       }
     },
     "featured_blog_ne43LD": {
@@ -339,6 +368,7 @@
     "feature_product_collection_fcn3Nn",
     "brand_collection_G4Yttb",
     "explore_VwPVRU",
+    "explore_1_VcCQc7",
     "featured_blog_ne43LD"
   ]
 }
