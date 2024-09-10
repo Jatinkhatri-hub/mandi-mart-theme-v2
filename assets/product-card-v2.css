@@ -142,6 +142,10 @@
     height: 255px;
   }
 
+  .product-card__info-v2 {
+    width: 260px;
+  }
+
   .product-card__rating-star-v2 svg {
     width: 17.75px;
     height: 17.75px;
