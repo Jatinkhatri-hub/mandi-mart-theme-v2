@@ -15,6 +15,7 @@
         "banner_GKALLL": {
           "type": "banner",
           "settings": {
+            "hero_bg_image": "shopify:\/\/shop_images\/Wireframe_-_2.png",
             "hero_title_text": "Transform Your Health With Premium Supplements",
             "hero_para_text": "Discover our range of curated health supplements by trusted brands!",
             "hero_point_text_1": "Wide range of brands and categories",
