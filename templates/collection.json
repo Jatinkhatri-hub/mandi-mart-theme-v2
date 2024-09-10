@@ -112,8 +112,8 @@
         "small_div_MgGNEM": {
           "type": "small-div",
           "settings": {
-            "small_img": "shopify:\/\/shop_images\/60_Sale_3.png",
-            "small_img_width": 210,
+            "small_img": "shopify:\/\/shop_images\/Mask_group.png",
+            "small_img_width": 100,
             "small_heading": "CLEARANCE",
             "small_button_text": "Explore Now",
             "small_div_button_link": ""
