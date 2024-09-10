@@ -1,7 +1,7 @@
 {{ 'https://unpkg.com/swiper/swiper-bundle.min.css' | stylesheet_tag }}
 
 <div class="hero-slider swiper mySwiper mySwiper-{{ section.id }}">
-  <div class="swiper-wrapper">
+  <div class="swiper-wrapper section-wrapper-{{ section.id }}">
   {% for block in section.blocks %}
     {% if block.type == 'banner' %}
       <div class="hero-div section-{{ section.id }} color-{{ section.settings.hero_color_scheme }} swiper-slide">
@@ -90,7 +90,7 @@
   .hero-slider{
     width: 100vw;
   }
-    .swiper-wrapper{
+    .swiper-wrapper-{{ section.id }} {
       width: fit-content;
       display: flex;
       overflow: hidden;
@@ -264,7 +264,7 @@
 
    @media(min-width : 319px) and (max-width : 700px){
 
-   .swiper-wrapper{
+   .swiper-wrapper-{{ section.id }} {
     height: 695px;
     
    }
