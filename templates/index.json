@@ -323,10 +323,29 @@
             "big_heading": "AMINO ACID",
             "big_button_text": "Explore Now"
           }
+        },
+        "small_div_y6GBid": {
+          "type": "small-div",
+          "settings": {
+            "small_img": "shopify:\/\/shop_images\/Untitleddesign-2023-11-23T142142.304_large_2x.progressive_1.png",
+            "small_img_width": 350,
+            "small_heading": "EFA'S OIL",
+            "small_button_text": "Explore Now"
+          }
+        },
+        "small_div_iAHzeJ": {
+          "type": "small-div",
+          "settings": {
+            "small_img_width": 350,
+            "small_heading": "Z",
+            "small_button_text": "Explore Now"
+          }
         }
       },
       "block_order": [
-        "big_div_m8rEB4"
+        "big_div_m8rEB4",
+        "small_div_y6GBid",
+        "small_div_iAHzeJ"
       ],
       "settings": {
         "h3_text": "Explore Our Categories",
