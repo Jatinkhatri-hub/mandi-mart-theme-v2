@@ -201,6 +201,7 @@
     },
     "bd_explore_KAazk9": {
       "type": "BD-explore",
+      "disabled": true,
       "settings": {
         "section_color_scheme": "",
         "color_scheme": "",
@@ -213,11 +214,67 @@
         "image_3": "shopify:\/\/shop_images\/Screenshot_from_2024-08-13_17-18-56.png",
         "link_3": "shopify:\/\/collections\/new-products"
       }
+    },
+    "explore2_kiH9bk": {
+      "type": "explore2",
+      "blocks": {
+        "explore_box_dFRXhD": {
+          "type": "explore_box",
+          "settings": {
+            "h4_text": "BEST SELLERS",
+            "h4_text_color": "#074542",
+            "button_text": "Explore Now",
+            "button_text_color": "#074542",
+            "button_link": "shopify:\/\/collections\/best-sellers",
+            "explore_img": "shopify:\/\/shop_images\/Mask_group.png",
+            "explore_img_width": 310,
+            "explore_img_margin_bottom": 0
+          }
+        },
+        "explore_box_jMFMME": {
+          "type": "explore_box",
+          "settings": {
+            "h4_text": "BEST SELLERS",
+            "h4_text_color": "#074542",
+            "button_text": "Explore Now",
+            "button_text_color": "#074542",
+            "button_link": "shopify:\/\/collections\/clearance",
+            "explore_img": "shopify:\/\/shop_images\/60_Sale_3.png",
+            "explore_img_width": 190,
+            "explore_img_margin_bottom": 11
+          }
+        },
+        "explore_box_8XeYmU": {
+          "type": "explore_box",
+          "settings": {
+            "h4_text": "NEW PRODUCT",
+            "h4_text_color": "#074542",
+            "button_text": "Explore Now",
+            "button_text_color": "#074542",
+            "button_link": "shopify:\/\/collections\/new-products",
+            "explore_img": "shopify:\/\/shop_images\/Untitleddesign_24_large_2x.progressive_1.png",
+            "explore_img_width": 300,
+            "explore_img_margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "explore_box_dFRXhD",
+        "explore_box_jMFMME",
+        "explore_box_8XeYmU"
+      ],
+      "settings": {
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "brand_directory_BcWLGN",
-    "bd_explore_KAazk9"
+    "bd_explore_KAazk9",
+    "explore2_kiH9bk"
   ]
 }
