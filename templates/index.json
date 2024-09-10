@@ -9,6 +9,29 @@
 */
 {
   "sections": {
+    "hero_46kHtt": {
+      "type": "hero",
+      "blocks": {
+        "banner_GKALLL": {
+          "type": "banner",
+          "settings": {
+            "hero_title_text": "Transform Your Health With Premium Supplements",
+            "hero_para_text": "Discover our range of curated health supplements by trusted brands!",
+            "hero_point_text_1": "Wide range of brands and categories",
+            "hero_point_text_2": "Premium supplements trusted by experts",
+            "hero_point_text_3": "Best prices and fast delivery",
+            "hero_button_text": "Default Button Text",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "banner_GKALLL"
+      ],
+      "settings": {
+        "hero_color_scheme": ""
+      }
+    },
     "hero_carousel_XFifLk": {
       "type": "hero-carousel",
       "blocks": {
@@ -45,6 +68,7 @@
         "image_cxjfMt",
         "image_TtdHrm"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -304,6 +328,7 @@
     }
   },
   "order": [
+    "hero_46kHtt",
     "hero_carousel_XFifLk",
     "feature_product_collection_FNdwGC",
     "featured_collection_v2_xbrdmy",
